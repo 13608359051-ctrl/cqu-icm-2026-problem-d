@@ -1,14 +1,25 @@
 # D 题 · 宽带接入的最后一公里
 
-在自己的 Fork 中上传或编辑成果，再向本仓库的 `main` 分支提交 Pull Request。
+D 题英文论文、可编辑源文件、模型代码和复核记录都在本仓库。队友从 `main` 获取当前版本，并通过 Pull Request 提交修改。
 
-目前交付在本地 `team/problem-d-delivery` 分支。等本届校赛确认公开时点、可公开内容和赛题附件授权后，再按上面的协作方式推送与开 PR。
+## 从哪里开始
 
-## 论文和复现
+| 想做什么 | 打开这里 |
+|---|---|
+| 阅读论文 | [英文审阅 PDF](output/pdf/Problem-D-review.pdf)。正文 16 页，AI 披露 5 页。第 3 页是总体流程图，第 15 页是备忘录。 |
+| 修改论文 | [paper/main.typ](paper/main.typ) 是 Typst 主文件。[章节源文件](paper/) 与主文件在同一目录。 |
+| 修改模型或参数 | [Task 1 覆盖审计](analysis/task1.py)、[Task 2 部署优化](analysis/task2.py)、[Task 3 机制比较](analysis/task3.py)。[参数与来源表](sources/) 可追溯各项设定。 |
+| 查图表和验收证据 | [结果目录](results/) 包含选址、技术、预算和乡镇结果。[逐项验收表](evidence/acceptance.csv) 和 [题面复核](evidence/final_prompt_check.md) 记录独立检查。 |
 
-- 英文审阅 PDF 位于 [output/pdf/Problem-D-review.pdf](output/pdf/Problem-D-review.pdf)。正文 16 页，AI 披露 5 页，总体流程图在第 3 页，备忘录在第 15 页。页眉以 `TEAM NUMBER REQUIRED` 标明队号待填。
-- 可编辑论文位于 [paper/main.typ](paper/main.typ)，各章节为同目录的 `.typ` 文件。正文采用 12 磅 Libertinus Serif。AI 披露附上保留原语言的提示词，Windows 使用 Microsoft YaHei 显示原文，在其他系统可安装 Noto Sans CJK SC。
-- 附件由队员从本届校赛发放包取得。将 `--data` 指向含 `blocks.csv`、`blocksV2.csv`、`road_segments.csv`、`road_segmentsV2.csv` 的 `2026_CQU_ICM_Problem_D_DATA` 文件夹。四个文件的校验值和字段核对见 [原始输入审计](results/task1_data_audit.json)。题面 PDF 和 AI 政策从同一发放包取得。
+## 队友如何修改
+
+有仓库写权限的队友可从 `main` 新建工作分支，提交后向 `main` 开 PR。其他队友可以在自己的 Fork 中编辑，再向本仓库的 `main` 分支提交 PR。在 PR 中写明修改了哪个模型或章节，以及重跑后哪些结果发生变化。
+
+论文文字和公式在 `paper/*.typ`，排版入口是 `analysis/build_paper.py`。模型或口径改变时，先更新相应分析脚本和参数来源表，再执行全量复现。核对生成的图表、摘要和备忘录是否随结果同步更新。
+
+## 从原始附件复现
+
+附件由队员从本届校赛发放包取得。将 `--data` 指向含 `blocks.csv`、`blocksV2.csv`、`road_segments.csv`、`road_segmentsV2.csv` 的 `2026_CQU_ICM_Problem_D_DATA` 文件夹。题面 PDF 和 AI 政策来自同一发放包。四个 CSV 的校验值和字段核对见 [原始输入审计](results/task1_data_audit.json)。
 
 在仓库根目录用 PowerShell 运行。下例按附件目录与本仓库同级设置。
 
@@ -20,7 +31,7 @@ $data = (Resolve-Path '..\2026年重庆大学数学建模秋季赛题目\2026_CQ
 & $py analysis/reproduce.py --data $data
 ```
 
-同一 Python 3.12 环境在 macOS 或 Linux 中使用 `.venv/bin/python`。复现命令重建三组计算、所有图表、英文审阅 PDF，并运行三个独立核查程序。模型无抽样或随机分组。依赖文件固定了实际运行版本。逐页栅格检查可另用 Poppler。
+复现命令重建三组计算、所有图表和英文审阅 PDF，并运行三个独立核查程序。依赖文件锁定了运行版本。macOS 或 Linux 使用 `.venv/bin/python`。AI 附录保留原语言提示词，Windows 可用 Microsoft YaHei，其他系统可安装 Noto Sans CJK SC。
 
 ## 文件入口
 
@@ -31,11 +42,11 @@ $data = (Resolve-Path '..\2026年重庆大学数学建模秋季赛题目\2026_CQ
 | Task 3 机制、财务、证据覆盖、去公平 | [task3.py](analysis/task3.py) | `results/task3_*`，[参数和来源](sources/task3_parameters.csv)，[独立重建和求解](evidence/task3_independent_review.md) |
 | 论文、图表 | [paper_data.py](analysis/paper_data.py)、[build_paper.py](analysis/build_paper.py) | `results/fig_*.svg`，`results/paper_data.json`，[验收记录](evidence/acceptance.csv) |
 
-向量级结果见 `task2_projects.csv`、`task3_actions.csv` 和 `task3_hubs.csv`。求解状态、覆盖和二阶段间隙见 `task2_solver.json` 与 `task3_summary.csv`。修改情景可直接运行对应脚本。若修改使结果或排序变化，同时更新论文中的解释、图表、摘要及备忘录，再跑独立检查。真实队号、文件命名、AI 输出附交要求和提交渠道见 [交付核对](evidence/release.md)。
+逐项目结果见 `results/task2_projects.csv`、`results/task3_actions.csv` 和 `results/task3_hubs.csv`。求解状态、覆盖和二阶段间隙见 `results/task2_solver.json` 与 `results/task3_summary.csv`。验收表的上传状态记录的是首次本地验收时点，实际合并记录以 GitHub 的 Pull Request 为准。队号、文件命名和 AI 记录报送事项见 [交付核对](evidence/release.md)。
 
 ## 填入经校赛确认的队号
 
-队伍收到正式队号且核对本届 AI 与文件命名要求后，可以在本地生成提交用 PDF。将下面的变量值和文件名换成正式通知要求，并检查更新后的 PDF。
+审阅版页眉显示 `TEAM NUMBER REQUIRED`。队伍收到正式队号并核对校赛 AI 披露与文件命名要求后，可在本地生成提交用 PDF。将下面的变量值和文件名换成正式通知要求，并检查更新后的 PDF。
 
 ```powershell
 $team = 'REPLACE-WITH-CONFIRMED-ID'
