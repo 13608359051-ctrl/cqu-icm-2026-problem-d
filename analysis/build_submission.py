@@ -145,8 +145,9 @@ def main(argv=None):
     args = parser.parse_args(argv)
     if not re.fullmatch(r"[A-Za-z0-9-]{1,20}", args.team):
         parser.error("team number must be letters, digits or hyphens")
-    cover = args.cover if args.cover and str(args.cover).strip() else None
-    if cover is not None and not Path(cover).exists():
+    cover_text = str(args.cover).strip()
+    cover = None if cover_text in ("", ".") else Path(cover_text)
+    if cover is not None and not cover.exists():
         parser.error(f"cover not found: {cover}")
     tmp = ROOT / "private" / "build"
     tmp.mkdir(parents=True, exist_ok=True)
