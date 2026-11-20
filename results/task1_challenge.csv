@@ -1,0 +1,6 @@
+scenario,share_substantiated,households_reclassified,households_retaining_original_north_served_treatment,unchallenged_terrestrial_coded_blocks,north_strictly_eligible,admin_cost_usd,admin_cost_low_usd,admin_cost_high_usd,illustrative_prep_days,conceded_scenario_max_days_from_prep_start,contested_scenario_max_days_from_prep_start
+accept,0,0,1908,4,0,0.00,0.00,0.00,0,0,0
+challenge_none_upheld,0,0,1908,4,0,12585.12,6292.56,25170.24,30,120,270
+challenge_quarter_upheld,0.25,383,1525,4,0,12585.12,6292.56,25170.24,30,120,270
+challenge_half_upheld,0.50,766,1142,4,0,12585.12,6292.56,25170.24,30,120,270
+challenge_all_upheld,1,1531,377,4,0,12585.12,6292.56,25170.24,30,120,270

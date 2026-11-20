@@ -1,0 +1,7988 @@
+{
+  "coop/strict/equity=True/footprint=0/hub=1": {
+    "status": "infeasible",
+    "eligible_actions": 0,
+    "town_deficits": {
+      "North Ridge": 157,
+      "East Corridor": 0,
+      "South Hollow": 0,
+      "West Plains": 120,
+      "Central Town": 0,
+      "River Bend": 204
+    },
+    "new_households_under_eligibility": 0
+  },
+  "coop/block/equity=True/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4213,
+    "gross_pv_usd": 10980237,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 912,
+      "South Hollow": 260,
+      "West Plains": 920,
+      "Central Town": 816,
+      "River Bend": 1082
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.589070262597587,
+      "South Hollow": 0.8289183222958058,
+      "West Plains": 0.6316793893129771,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5584826132771338
+    },
+    "technology_counts": {
+      "fiber": 12,
+      "wireless": 32
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 4789151,
+    "last_mile_capex": 4143774,
+    "provider_maintenance_pv": 2047312,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/verified/equity=True/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 5311,
+    "gross_pv_usd": 10994761,
+    "township_gains": {
+      "North Ridge": 1591,
+      "East Corridor": 787,
+      "South Hollow": 244,
+      "West Plains": 906,
+      "Central Town": 807,
+      "River Bend": 976
+    },
+    "post_access": {
+      "North Ridge": 0.9217798594847775,
+      "East Corridor": 0.5447125621007807,
+      "South Hollow": 0.8200883002207505,
+      "West Plains": 0.625,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.5212504390586582
+    },
+    "technology_counts": {
+      "fiber": 11,
+      "wireless": 43
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 3912451,
+    "last_mile_capex": 4892752,
+    "provider_maintenance_pv": 2189558,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000001",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000002",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000003",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000005",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000006",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000007",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000009",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000010",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000013",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000017",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000018",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000019",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000020",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "tender/strict/equity=True/footprint=0/hub=1": {
+    "status": "infeasible",
+    "eligible_actions": 0,
+    "town_deficits": {
+      "North Ridge": 157,
+      "East Corridor": 0,
+      "South Hollow": 0,
+      "West Plains": 120,
+      "Central Town": 0,
+      "River Bend": 204
+    },
+    "new_households_under_eligibility": 0
+  },
+  "tender/block/equity=True/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3521,
+    "gross_pv_usd": 10997218,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 1069,
+      "South Hollow": 273,
+      "West Plains": 211,
+      "Central Town": 816,
+      "River Bend": 929
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.6447835344215755,
+      "South Hollow": 0.8360927152317881,
+      "West Plains": 0.29341603053435117,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5047418335089568
+    },
+    "technology_counts": {
+      "fiber": 18,
+      "wireless": 18
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 5573946,
+    "last_mile_capex": 3682993,
+    "provider_maintenance_pv": 1740279,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000058",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "tender/verified/equity=True/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4834,
+    "gross_pv_usd": 10970840,
+    "township_gains": {
+      "North Ridge": 1744,
+      "East Corridor": 872,
+      "South Hollow": 262,
+      "West Plains": 211,
+      "Central Town": 816,
+      "River Bend": 929
+    },
+    "post_access": {
+      "North Ridge": 0.9934426229508196,
+      "East Corridor": 0.5748757984386089,
+      "South Hollow": 0.8300220750551877,
+      "West Plains": 0.29341603053435117,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5047418335089568
+    },
+    "technology_counts": {
+      "fiber": 25,
+      "wireless": 23
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 4509371,
+    "last_mile_capex": 4652191,
+    "provider_maintenance_pv": 1809278,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000001",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000002",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000003",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000005",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000006",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000007",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000009",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000010",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000013",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000017",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000018",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000019",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000020",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/strict/equity=True/footprint=0/hub=1": {
+    "status": "infeasible",
+    "eligible_actions": 0,
+    "town_deficits": {
+      "North Ridge": 157,
+      "East Corridor": 0,
+      "South Hollow": 0,
+      "West Plains": 120,
+      "Central Town": 0,
+      "River Bend": 204
+    },
+    "new_households_under_eligibility": 0
+  },
+  "ppp/block/equity=True/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4765,
+    "gross_pv_usd": 10990325,
+    "township_gains": {
+      "North Ridge": 211,
+      "East Corridor": 999,
+      "South Hollow": 174,
+      "West Plains": 1367,
+      "Central Town": 816,
+      "River Bend": 1198
+    },
+    "post_access": {
+      "North Ridge": 0.2754098360655738,
+      "East Corridor": 0.6199432221433641,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.8449427480916031,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5992272567615033
+    },
+    "technology_counts": {
+      "fiber": 28,
+      "wireless": 12
+    },
+    "opened_hubs": [
+      "East Corridor",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 2536229,
+    "last_mile_capex": 4693565,
+    "provider_maintenance_pv": 1269313,
+    "county_backhaul_capex": 2159622,
+    "county_maintenance_pv": 331596,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000028",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/verified/equity=True/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 5750,
+    "gross_pv_usd": 10996303,
+    "township_gains": {
+      "North Ridge": 1675,
+      "East Corridor": 787,
+      "South Hollow": 174,
+      "West Plains": 1206,
+      "Central Town": 816,
+      "River Bend": 1092
+    },
+    "post_access": {
+      "North Ridge": 0.9611241217798595,
+      "East Corridor": 0.5447125621007807,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.7681297709923665,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5619950825430278
+    },
+    "technology_counts": {
+      "fiber": 27,
+      "wireless": 27
+    },
+    "opened_hubs": [
+      "North Ridge",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "North Ridge",
+        "cable"
+      ],
+      [
+        "North Ridge",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 2089125,
+    "last_mile_capex": 5220749,
+    "provider_maintenance_pv": 1503743,
+    "county_backhaul_capex": 1892158,
+    "county_maintenance_pv": 290528,
+    "pick_keys": [
+      [
+        "420010000001",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000002",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000003",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000005",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000006",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000007",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000009",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000010",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000013",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000017",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000018",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000019",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000020",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/block/equity=False/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4213,
+    "gross_pv_usd": 10980237,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 912,
+      "South Hollow": 260,
+      "West Plains": 920,
+      "Central Town": 816,
+      "River Bend": 1082
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.589070262597587,
+      "South Hollow": 0.8289183222958058,
+      "West Plains": 0.6316793893129771,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5584826132771338
+    },
+    "technology_counts": {
+      "fiber": 12,
+      "wireless": 32
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 4789151,
+    "last_mile_capex": 4143774,
+    "provider_maintenance_pv": 2047312,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "tender/block/equity=False/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3521,
+    "gross_pv_usd": 10997218,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 1069,
+      "South Hollow": 273,
+      "West Plains": 211,
+      "Central Town": 816,
+      "River Bend": 929
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.6447835344215755,
+      "South Hollow": 0.8360927152317881,
+      "West Plains": 0.29341603053435117,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5047418335089568
+    },
+    "technology_counts": {
+      "fiber": 18,
+      "wireless": 18
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 5573946,
+    "last_mile_capex": 3682993,
+    "provider_maintenance_pv": 1740279,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000058",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/block/equity=False/footprint=0/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4765,
+    "gross_pv_usd": 10990325,
+    "township_gains": {
+      "North Ridge": 211,
+      "East Corridor": 999,
+      "South Hollow": 174,
+      "West Plains": 1367,
+      "Central Town": 816,
+      "River Bend": 1198
+    },
+    "post_access": {
+      "North Ridge": 0.2754098360655738,
+      "East Corridor": 0.6199432221433641,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.8449427480916031,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5992272567615033
+    },
+    "technology_counts": {
+      "fiber": 28,
+      "wireless": 12
+    },
+    "opened_hubs": [
+      "East Corridor",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 2536229,
+    "last_mile_capex": 4693565,
+    "provider_maintenance_pv": 1269313,
+    "county_backhaul_capex": 2159622,
+    "county_maintenance_pv": 331596,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000028",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "tender/block/equity=True/footprint=-2/hub=1": {
+    "status": "infeasible",
+    "eligible_actions": 56,
+    "town_deficits": {
+      "North Ridge": 157,
+      "East Corridor": 0,
+      "South Hollow": 0,
+      "West Plains": 120,
+      "Central Town": 0,
+      "River Bend": 204
+    }
+  },
+  "tender/block/equity=True/footprint=2/hub=1": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4031,
+    "gross_pv_usd": 10982855,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 992,
+      "South Hollow": 363,
+      "West Plains": 555,
+      "Central Town": 816,
+      "River Bend": 1082
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.6174591909155429,
+      "South Hollow": 0.8857615894039735,
+      "West Plains": 0.4575381679389313,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5584826132771338
+    },
+    "technology_counts": {
+      "fiber": 17,
+      "wireless": 25
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 5136299,
+    "last_mile_capex": 3956889,
+    "provider_maintenance_pv": 1889667,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000058",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/block/equity=True/footprint=0/hub=0.75": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4883,
+    "gross_pv_usd": 10978290,
+    "township_gains": {
+      "North Ridge": 211,
+      "East Corridor": 1043,
+      "South Hollow": 174,
+      "West Plains": 1367,
+      "Central Town": 816,
+      "River Bend": 1272
+    },
+    "post_access": {
+      "North Ridge": 0.2754098360655738,
+      "East Corridor": 0.6355571327182399,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.8449427480916031,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.6252195293291184
+    },
+    "technology_counts": {
+      "fiber": 31,
+      "wireless": 9
+    },
+    "opened_hubs": [
+      "East Corridor",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 2905923,
+    "last_mile_capex": 4888450,
+    "provider_maintenance_pv": 1315502,
+    "county_backhaul_capex": 1619717,
+    "county_maintenance_pv": 248698,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000028",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/block/equity=True/footprint=0/hub=2": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4381,
+    "gross_pv_usd": 10991450,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 787,
+      "South Hollow": 174,
+      "West Plains": 1270,
+      "Central Town": 774,
+      "River Bend": 1153
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.5447125621007807,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.7986641221374046,
+      "Central Town": 0.8902439024390244,
+      "River Bend": 0.5834211450649807
+    },
+    "technology_counts": {
+      "fiber": 17,
+      "wireless": 24
+    },
+    "opened_hubs": [
+      "West Plains",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 163780,
+    "provider_backhaul_capex": 2021480,
+    "last_mile_capex": 4107266,
+    "provider_maintenance_pv": 1276522,
+    "county_backhaul_capex": 3108840,
+    "county_maintenance_pv": 477342,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/block/equity=True/footprint=0/hub=1/budget-9m": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3991,
+    "gross_pv_usd": 8990687,
+    "township_gains": {
+      "North Ridge": 211,
+      "East Corridor": 831,
+      "South Hollow": 260,
+      "West Plains": 906,
+      "Central Town": 807,
+      "River Bend": 976
+    },
+    "post_access": {
+      "North Ridge": 0.2754098360655738,
+      "East Corridor": 0.5603264726756565,
+      "South Hollow": 0.8289183222958058,
+      "West Plains": 0.625,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.5212504390586582
+    },
+    "technology_counts": {
+      "fiber": 7,
+      "wireless": 35
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 3485300,
+    "last_mile_capex": 3669704,
+    "provider_maintenance_pv": 1835683,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/block/equity=True/footprint=0/hub=1/budget-13m": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4365,
+    "gross_pv_usd": 12983709,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 992,
+      "South Hollow": 332,
+      "West Plains": 920,
+      "Central Town": 816,
+      "River Bend": 1082
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.6174591909155429,
+      "South Hollow": 0.8686534216335541,
+      "West Plains": 0.6316793893129771,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5584826132771338
+    },
+    "technology_counts": {
+      "fiber": 16,
+      "wireless": 29
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 6263175,
+    "last_mile_capex": 4457064,
+    "provider_maintenance_pv": 2263470,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/block/equity=True/footprint=0/hub=1/low-maintenance": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4259,
+    "gross_pv_usd": 10995573,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 912,
+      "South Hollow": 306,
+      "West Plains": 920,
+      "Central Town": 816,
+      "River Bend": 1082
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.589070262597587,
+      "South Hollow": 0.8543046357615894,
+      "West Plains": 0.6316793893129771,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5584826132771338
+    },
+    "technology_counts": {
+      "fiber": 13,
+      "wireless": 32
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 5154698,
+    "last_mile_capex": 4252310,
+    "provider_maintenance_pv": 1588565,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/block/equity=True/footprint=0/hub=1/high-maintenance": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4114,
+    "gross_pv_usd": 10984109,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 872,
+      "South Hollow": 271,
+      "West Plains": 920,
+      "Central Town": 807,
+      "River Bend": 1021
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.5748757984386089,
+      "South Hollow": 0.8349889624724062,
+      "West Plains": 0.6316793893129771,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.5370565507551809
+    },
+    "technology_counts": {
+      "fiber": 9,
+      "wireless": 36
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 4053535,
+    "last_mile_capex": 3970666,
+    "provider_maintenance_pv": 2959908,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000058",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "coop/verified/equity=True/footprint=0/hub=1/verified-50pct": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 5311,
+    "gross_pv_usd": 10994761,
+    "township_gains": {
+      "North Ridge": 1591,
+      "East Corridor": 787,
+      "South Hollow": 244,
+      "West Plains": 906,
+      "Central Town": 807,
+      "River Bend": 976
+    },
+    "post_access": {
+      "North Ridge": 0.9217798594847775,
+      "East Corridor": 0.5447125621007807,
+      "South Hollow": 0.8200883002207505,
+      "West Plains": 0.625,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.5212504390586582
+    },
+    "technology_counts": {
+      "fiber": 11,
+      "wireless": 43
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 3912451,
+    "last_mile_capex": 4892752,
+    "provider_maintenance_pv": 2189558,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000001",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000002",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000003",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000005",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000006",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000007",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000008",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000009",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000010",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000013",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000015",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000017",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000018",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000019",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000020",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000048",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000064",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000071",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000073",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000076",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000077",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000080",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "tender/block/equity=True/footprint=0/hub=1/budget-9m": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3380,
+    "gross_pv_usd": 8974989,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 957,
+      "South Hollow": 253,
+      "West Plains": 211,
+      "Central Town": 807,
+      "River Bend": 929
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.6050390347764372,
+      "South Hollow": 0.8250551876379691,
+      "West Plains": 0.29341603053435117,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.5047418335089568
+    },
+    "technology_counts": {
+      "fiber": 14,
+      "wireless": 20
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 4092343,
+    "last_mile_capex": 3384399,
+    "provider_maintenance_pv": 1498247,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "tender/block/equity=True/footprint=0/hub=1/budget-13m": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3645,
+    "gross_pv_usd": 12965754,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 1069,
+      "South Hollow": 262,
+      "West Plains": 275,
+      "Central Town": 816,
+      "River Bend": 1000
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.6447835344215755,
+      "South Hollow": 0.8300220750551877,
+      "West Plains": 0.32395038167938933,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5296803652968036
+    },
+    "technology_counts": {
+      "fiber": 21,
+      "wireless": 14
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 7135176,
+    "last_mile_capex": 3899263,
+    "provider_maintenance_pv": 1931315,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "tender/block/equity=True/footprint=0/hub=1/low-maintenance": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3552,
+    "gross_pv_usd": 10978111,
+    "township_gains": {
+      "North Ridge": 227,
+      "East Corridor": 1032,
+      "South Hollow": 273,
+      "West Plains": 275,
+      "Central Town": 816,
+      "River Bend": 929
+    },
+    "post_access": {
+      "North Ridge": 0.282903981264637,
+      "East Corridor": 0.631653655074521,
+      "South Hollow": 0.8360927152317881,
+      "West Plains": 0.32395038167938933,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5047418335089568
+    },
+    "technology_counts": {
+      "fiber": 19,
+      "wireless": 17
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 5915162,
+    "last_mile_capex": 3723516,
+    "provider_maintenance_pv": 1339433,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000058",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "tender/block/equity=True/footprint=0/hub=1/high-maintenance": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 3466,
+    "gross_pv_usd": 10972181,
+    "township_gains": {
+      "North Ridge": 227,
+      "East Corridor": 957,
+      "South Hollow": 262,
+      "West Plains": 275,
+      "Central Town": 816,
+      "River Bend": 929
+    },
+    "post_access": {
+      "North Ridge": 0.282903981264637,
+      "East Corridor": 0.6050390347764372,
+      "South Hollow": 0.8300220750551877,
+      "West Plains": 0.32395038167938933,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5047418335089568
+    },
+    "technology_counts": {
+      "fiber": 17,
+      "wireless": 18
+    },
+    "opened_hubs": [],
+    "leases": [],
+    "lease_pv_usd": 0,
+    "provider_backhaul_capex": 4997361,
+    "last_mile_capex": 3528024,
+    "provider_maintenance_pv": 2446796,
+    "county_backhaul_capex": 0,
+    "county_maintenance_pv": 0,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000045",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000050",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000079",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "coop",
+        false
+      ],
+      [
+        "420010000102",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000103",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000115",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000116",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "tender/verified/equity=True/footprint=0/hub=1/verified-50pct": {
+    "status": "infeasible",
+    "eligible_actions": 98,
+    "town_deficits": {
+      "North Ridge": 691,
+      "East Corridor": 661,
+      "South Hollow": 0,
+      "West Plains": 644,
+      "Central Town": 0,
+      "River Bend": 916
+    }
+  },
+  "ppp/block/equity=True/footprint=0/hub=1/budget-9m": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4362,
+    "gross_pv_usd": 8992463,
+    "township_gains": {
+      "North Ridge": 185,
+      "East Corridor": 787,
+      "South Hollow": 174,
+      "West Plains": 1317,
+      "Central Town": 807,
+      "River Bend": 1092
+    },
+    "post_access": {
+      "North Ridge": 0.26323185011709604,
+      "East Corridor": 0.5447125621007807,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.8210877862595419,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.5619950825430278
+    },
+    "technology_counts": {
+      "fiber": 17,
+      "wireless": 23
+    },
+    "opened_hubs": [
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "Central Town",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 245670,
+    "provider_backhaul_capex": 1758084,
+    "last_mile_capex": 4039838,
+    "provider_maintenance_pv": 1221563,
+    "county_backhaul_capex": 1710363,
+    "county_maintenance_pv": 262615,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "ppp/block/equity=True/footprint=0/hub=1/budget-13m": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 5110,
+    "gross_pv_usd": 12998936,
+    "township_gains": {
+      "North Ridge": 211,
+      "East Corridor": 1084,
+      "South Hollow": 190,
+      "West Plains": 1463,
+      "Central Town": 807,
+      "River Bend": 1355
+    },
+    "post_access": {
+      "North Ridge": 0.2754098360655738,
+      "East Corridor": 0.6501064584811923,
+      "South Hollow": 0.7902869757174393,
+      "West Plains": 0.8907442748091603,
+      "Central Town": 0.9020803443328551,
+      "River Bend": 0.6543730242360379
+    },
+    "technology_counts": {
+      "fiber": 35,
+      "wireless": 7
+    },
+    "opened_hubs": [
+      "East Corridor",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "Central Town",
+        "startup"
+      ],
+      [
+        "East Corridor",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 3732500,
+    "last_mile_capex": 5310423,
+    "provider_maintenance_pv": 1464795,
+    "county_backhaul_capex": 2159622,
+    "county_maintenance_pv": 331596,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000028",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000053",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000068",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000072",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000111",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000114",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/block/equity=True/footprint=0/hub=1/low-maintenance": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4845,
+    "gross_pv_usd": 10982469,
+    "township_gains": {
+      "North Ridge": 211,
+      "East Corridor": 1043,
+      "South Hollow": 174,
+      "West Plains": 1367,
+      "Central Town": 816,
+      "River Bend": 1234
+    },
+    "post_access": {
+      "North Ridge": 0.2754098360655738,
+      "East Corridor": 0.6355571327182399,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.8449427480916031,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.6118721461187214
+    },
+    "technology_counts": {
+      "fiber": 30,
+      "wireless": 10
+    },
+    "opened_hubs": [
+      "East Corridor",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "cable"
+      ],
+      [
+        "East Corridor",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 2777078,
+    "last_mile_capex": 4822206,
+    "provider_maintenance_pv": 974865,
+    "county_backhaul_capex": 2159622,
+    "county_maintenance_pv": 248698,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000024",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000027",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000028",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000032",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000036",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/block/equity=True/footprint=0/hub=1/high-maintenance": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 4609,
+    "gross_pv_usd": 10981002,
+    "township_gains": {
+      "North Ridge": 223,
+      "East Corridor": 831,
+      "South Hollow": 174,
+      "West Plains": 1367,
+      "Central Town": 816,
+      "River Bend": 1198
+    },
+    "post_access": {
+      "North Ridge": 0.2810304449648712,
+      "East Corridor": 0.5603264726756565,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.8449427480916031,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5992272567615033
+    },
+    "technology_counts": {
+      "fiber": 23,
+      "wireless": 18
+    },
+    "opened_hubs": [
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 204725,
+    "provider_backhaul_capex": 2427294,
+    "last_mile_capex": 4477195,
+    "provider_maintenance_pv": 1972227,
+    "county_backhaul_capex": 1710363,
+    "county_maintenance_pv": 393923,
+    "pick_keys": [
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000063",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "fiber",
+        "cable",
+        false
+      ]
+    ]
+  },
+  "ppp/verified/equity=True/footprint=0/hub=1/verified-50pct": {
+    "status": "optimal",
+    "coverage_gap": 0.0,
+    "cost_gap": 0.0,
+    "new_households": 5750,
+    "gross_pv_usd": 10996303,
+    "township_gains": {
+      "North Ridge": 1675,
+      "East Corridor": 787,
+      "South Hollow": 174,
+      "West Plains": 1206,
+      "Central Town": 816,
+      "River Bend": 1092
+    },
+    "post_access": {
+      "North Ridge": 0.9611241217798595,
+      "East Corridor": 0.5447125621007807,
+      "South Hollow": 0.7814569536423841,
+      "West Plains": 0.7681297709923665,
+      "Central Town": 0.9053084648493543,
+      "River Bend": 0.5619950825430278
+    },
+    "technology_counts": {
+      "fiber": 27,
+      "wireless": 27
+    },
+    "opened_hubs": [
+      "North Ridge",
+      "West Plains",
+      "Central Town",
+      "River Bend"
+    ],
+    "leases": [
+      [
+        "Central Town",
+        "cable"
+      ],
+      [
+        "North Ridge",
+        "cable"
+      ],
+      [
+        "North Ridge",
+        "startup"
+      ],
+      [
+        "River Bend",
+        "cable"
+      ],
+      [
+        "River Bend",
+        "startup"
+      ],
+      [
+        "West Plains",
+        "cable"
+      ],
+      [
+        "West Plains",
+        "startup"
+      ]
+    ],
+    "lease_pv_usd": 286615,
+    "provider_backhaul_capex": 2089125,
+    "last_mile_capex": 5220749,
+    "provider_maintenance_pv": 1503743,
+    "county_backhaul_capex": 1892158,
+    "county_maintenance_pv": 290528,
+    "pick_keys": [
+      [
+        "420010000001",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000002",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000003",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000005",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000006",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000007",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000008",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000009",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000010",
+        "fiber",
+        "cable",
+        false
+      ],
+      [
+        "420010000011",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000013",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000015",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000017",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000018",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000019",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000020",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000022",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000024",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000027",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000028",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000032",
+        "wireless",
+        "coop",
+        false
+      ],
+      [
+        "420010000034",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000035",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000036",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000047",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000050",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000054",
+        "wireless",
+        "startup",
+        false
+      ],
+      [
+        "420010000062",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000063",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000064",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000067",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000068",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000071",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000073",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000076",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000077",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000078",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000080",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000083",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000084",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000085",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000086",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000088",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000101",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000102",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000103",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000109",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000110",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000111",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000114",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000115",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000116",
+        "fiber",
+        "cable",
+        true
+      ],
+      [
+        "420010000117",
+        "wireless",
+        "startup",
+        true
+      ],
+      [
+        "420010000119",
+        "wireless",
+        "coop",
+        false
+      ]
+    ]
+  },
+  "south_raw_subscriptions": {
+    "households": 1812,
+    "subscriptions": 398,
+    "fixed_wireless_coded_blocks": 5,
+    "fixed_wireless_coded_households": 491,
+    "fixed_wireless_coded_subscriptions_all_technologies": 99
+  }
+}

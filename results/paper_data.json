@@ -1,0 +1,261 @@
+{
+  "values": {
+    "budget": "$11.000m",
+    "t2_main_hh": "4,213",
+    "t2_main_cost": "$10.980m",
+    "sensitivity_summary": "Across the tested ranges, wireless serviceability shifts new coverage by 661 households, versus 295 for the fiber route cost.",
+    "recommendation_summary": "County-owned backhaul with open-access leases adds 4,765 opportunities, 552 more than the next-best cooperative award.",
+    "override_summary": "With a verified North Ridge override the county partnership stays first at 5,750 additions.",
+    "equity_summary": "West Plains gains the most from the first-phase partnership (1,367 households), with or without the floor in this scenario.",
+    "executive_mechanism": "The county partnership delivers 4,765 new opportunities under this reform. The cooperative can deliver 4,213 and is the best fallback if lease commitments or route costs defeat the case for a public backbone.",
+    "ppp_hh": "4,765",
+    "coop_hh": "4,213",
+    "tender_hh": "3,521",
+    "advantage": "552",
+    "tender_gap": "1,244",
+    "ppp_cost": "$10.990m",
+    "coop_cost": "$10.980m",
+    "ppp_min": "27.54%",
+    "coop_min": "28.10%",
+    "ppp_capex": "$2,159,622",
+    "ppp_om": "$331,596",
+    "ppp_rent": "$286,615",
+    "net_outlay": "$10.704m",
+    "om_recovery": "86.43%",
+    "override_count": "5,750",
+    "best_name": "West Plains",
+    "best_hh": "1,367",
+    "best_share": "65.22%",
+    "verified_best_name": "North Ridge",
+    "verified_best_hh": "1,675",
+    "min_funding": "$793,458",
+    "min_funding_new": "526",
+    "verified_50_min_funding": "$4,969,620"
+  },
+  "rows": {
+    "townships": [
+      [
+        "North Ridge",
+        "2,135",
+        "1,177",
+        "55.13%",
+        "17",
+        "377"
+      ],
+      [
+        "East Corridor",
+        "2,818",
+        "1,243",
+        "44.11%",
+        "12",
+        "748"
+      ],
+      [
+        "South Hollow",
+        "1,812",
+        "398",
+        "21.96%",
+        "13",
+        "1,242"
+      ],
+      [
+        "West Plains",
+        "2,096",
+        "756",
+        "36.07%",
+        "7",
+        "404"
+      ],
+      [
+        "Central Town",
+        "2,788",
+        "2,165",
+        "77.65%",
+        "15",
+        "1,708"
+      ],
+      [
+        "River Bend",
+        "2,847",
+        "852",
+        "29.93%",
+        "9",
+        "508"
+      ]
+    ],
+    "challenge": [
+      [
+        "Accept",
+        "$0 / no extra delay",
+        "No reclassification. No town eligible."
+      ],
+      [
+        "Challenge fails",
+        "$12,585 / timing varies",
+        "0 households reclassified. No town eligible."
+      ],
+      [
+        "Partial success",
+        "$12,585 / 120 d conceded / 270 d contested",
+        "383 or 766 households. No town eligible."
+      ],
+      [
+        "Full targeted success",
+        "$12,585 / 120 d conceded / 270 d contested",
+        "1,531 households. Four North Ridge flags still block funding."
+      ]
+    ],
+    "sensitivity": [
+      [
+        "Fiber, aerial Q1",
+        "4,342",
+        "$10.979m",
+        "16 / 27",
+        "28.10%",
+        "+4 / −5"
+      ],
+      [
+        "Base",
+        "4,213",
+        "$10.980m",
+        "12 / 32",
+        "28.10%",
+        "+0 / −0"
+      ],
+      [
+        "Fiber, underground median",
+        "4,047",
+        "$10.932m",
+        "7 / 38",
+        "26.89%",
+        "+6 / −5"
+      ],
+      [
+        "Wireless pass −10 pp",
+        "3,892",
+        "$10.995m",
+        "13 / 29",
+        "27.54%",
+        "+1 / −3"
+      ],
+      [
+        "Wireless pass +10 pp",
+        "4,553",
+        "$10.947m",
+        "10 / 36",
+        "28.15%",
+        "+4 / −2"
+      ]
+    ],
+    "mechanisms": [
+      [
+        "Cooperative",
+        "4,213",
+        "$10.980m",
+        "$2,606",
+        "28.10%",
+        "12 / 32"
+      ],
+      [
+        "Competitive tender",
+        "3,521",
+        "$10.997m",
+        "$3,123",
+        "28.10%",
+        "18 / 18"
+      ],
+      [
+        "County PPP",
+        "4,765",
+        "$10.990m",
+        "$2,306",
+        "27.54%",
+        "28 / 12"
+      ]
+    ],
+    "lifecycle": [
+      [
+        "Cooperative",
+        "$4.789m",
+        "$4.144m",
+        "$2.047m",
+        "$10.980m"
+      ],
+      [
+        "Competitive tender",
+        "$5.574m",
+        "$3.683m",
+        "$1.740m",
+        "$10.997m"
+      ],
+      [
+        "County PPP",
+        "$4.696m",
+        "$4.694m",
+        "$1.601m",
+        "$10.704m"
+      ]
+    ],
+    "verified": [
+      [
+        "Cooperative",
+        "5,311",
+        "$10.995m",
+        "52.13%",
+        "0"
+      ],
+      [
+        "Competitive tender",
+        "4,834",
+        "$10.971m",
+        "29.34%",
+        "0"
+      ],
+      [
+        "County PPP",
+        "5,750",
+        "$10.996m",
+        "54.47%",
+        "4"
+      ]
+    ],
+    "benefits": [
+      [
+        "North Ridge",
+        "211",
+        "9.88%",
+        "27.54%"
+      ],
+      [
+        "East Corridor",
+        "999",
+        "35.45%",
+        "61.99%"
+      ],
+      [
+        "South Hollow",
+        "174",
+        "9.60%",
+        "78.15%"
+      ],
+      [
+        "West Plains",
+        "1,367",
+        "65.22%",
+        "84.49%"
+      ],
+      [
+        "Central Town",
+        "816",
+        "29.27%",
+        "90.53%"
+      ],
+      [
+        "River Bend",
+        "1,198",
+        "42.08%",
+        "59.92%"
+      ]
+    ]
+  }
+}

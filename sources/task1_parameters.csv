@@ -1,0 +1,14 @@
+parameter,base,low,high,units,reference_year,region,basis_or_source,applicability
+fixed_downstream_benchmark,100,100,100,Mbps,2024,United States,https://docs.fcc.gov/public/attachments/DOC-401205A1.pdf,FCC planning benchmark adopted as county design target
+fixed_upstream_benchmark,20,20,20,Mbps,2024,United States,https://docs.fcc.gov/public/attachments/DOC-401205A1.pdf,FCC planning benchmark adopted as county design target
+government_labor_compensation,65.68,65.68,65.68,USD per labor hour,December 2025,United States,https://www.bls.gov/news.release/archives/ecec_03202026.htm,National state and local government employer compensation including wages and benefits
+north_challenge_admin_labor,184,92,368,hours,2026 planning scenario,Hallowell County,Assumption: 128 h address desk checks + 32 h data preparation + 24 h case follow-up,One round of desk-based screening and preparation with workload stress range
+north_challenge_cash_expenses,500,250,1000,USD,2026 planning scenario,Hallowell County,Assumption: intake communications and evidence storage,Includes limited cash expenses and excludes comprehensive field engineering
+north_challenge_total_admin,12585.12,6292.56,25170.24,USD,2026 planning scenario,Hallowell County,government_labor_compensation times north_challenge_admin_labor plus north_challenge_cash_expenses,Separate county administrative appropriation assumed
+north_challenge_prep,30,30,30,calendar days,2026 planning scenario,Hallowell County,Assumed county evidence preparation period,Screening and publication lag additional
+provider_initial_reply_window,60,0,60,calendar days,2024 reference,United States,https://www.govinfo.gov/content/pkg/CFR-2024-title47-vol1/pdf/CFR-2024-title47-vol1-sec1-7006.pdf,Analogous maximum time after provider notification
+dispute_resolution_window,60,0,60,calendar days,2024 reference,United States,https://www.govinfo.gov/content/pkg/CFR-2024-title47-vol1/pdf/CFR-2024-title47-vol1-sec1-7006.pdf,Analogous optional negotiation after denial
+contested_adjudication_window,90,0,90,calendar days,2024 reference,United States,https://www.govinfo.gov/content/pkg/CFR-2024-title47-vol1/pdf/CFR-2024-title47-vol1-sec1-7006.pdf,Analogous maximum adjudication review after negotiation
+accepted_revision_window,30,0,30,calendar days,2024 reference,United States,https://www.govinfo.gov/content/pkg/CFR-2024-title47-vol1/pdf/CFR-2024-title47-vol1-sec1-7006.pdf,Analogous maximum time to correct BDC information after determination
+satellite_group_reclassification_share,0.50,0,1,fraction of North satellite-coded households,2026 planning scenario,Hallowell County,Assumed sensitivity values 0 / 0.25 / 0.50 / 1,Scenarios condition on evidence acceptance and policy permitting terrestrial reclassification
+road_diagnostic_threshold,-110,-115,-105,dBm,2026 planning scenario,Hallowell County,Assumed descriptive cutoffs on recorded road signal,No radio protocol or service eligibility criterion is implied

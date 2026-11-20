@@ -1,0 +1,37 @@
+Raw-reading strict served-block counts: {'North Ridge': 17, 'East Corridor': 12, 'South Hollow': 13, 'West Plains': 7, 'Central Town': 15, 'River Bend': 9}
+Independent dynamic-programming results before CSV comparison
+strict infeasible None None
+strict_without_floor optimal 0 0
+block_50pct infeasible None None
+block_base optimal 4213 10980237
+block_min_budget optimal 526 793458
+verified_50pct optimal 5311 10994761
+verified_50pct_min_budget optimal 2930 4969620
+verified_base optimal 5311 10994761
+fiber_aerial_q1 optimal 4342 10978741
+fiber_underground_median optimal 4047 10932366
+wireless_pass_minus10pp optimal 3892 10995062
+wireless_pass_plus10pp optimal 4553 10947026
+block_budget_8m optimal 3836 7978753
+block_budget_14m optimal 4434 13981914
+block_om_75pct optimal 4259 10995573
+block_om_125pct optimal 4164 10930659
+block_baseline_75pct infeasible None None
+strict compared: 0 distinct qualifying blocks, all cost and coverage fields match
+strict_without_floor compared: 0 distinct qualifying blocks, all cost and coverage fields match
+block_50pct compared: 0 distinct qualifying blocks, all cost and coverage fields match
+block_base compared: 44 distinct qualifying blocks, all cost and coverage fields match
+block_min_budget compared: 5 distinct qualifying blocks, all cost and coverage fields match
+verified_50pct compared: 54 distinct qualifying blocks, all cost and coverage fields match
+verified_50pct_min_budget compared: 26 distinct qualifying blocks, all cost and coverage fields match
+verified_base compared: 54 distinct qualifying blocks, all cost and coverage fields match
+fiber_aerial_q1 compared: 43 distinct qualifying blocks, all cost and coverage fields match
+fiber_underground_median compared: 45 distinct qualifying blocks, all cost and coverage fields match
+wireless_pass_minus10pp compared: 42 distinct qualifying blocks, all cost and coverage fields match
+wireless_pass_plus10pp compared: 46 distinct qualifying blocks, all cost and coverage fields match
+block_budget_8m compared: 41 distinct qualifying blocks, all cost and coverage fields match
+block_budget_14m compared: 45 distinct qualifying blocks, all cost and coverage fields match
+block_om_75pct compared: 45 distinct qualifying blocks, all cost and coverage fields match
+block_om_125pct compared: 44 distinct qualifying blocks, all cost and coverage fields match
+block_baseline_75pct compared: 0 distinct qualifying blocks, all cost and coverage fields match
+Passed independent hand check, exact optimization and row audit of 17 cases.

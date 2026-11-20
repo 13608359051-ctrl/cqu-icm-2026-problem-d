@@ -1,0 +1,6 @@
+provider_technology,blocks,households,subscriptions,subscription_rate,surveyed_segments,surveyed_road_miles,miles_at_or_below_-105_dbm,miles_at_or_below_-110_dbm,miles_at_or_below_-115_dbm
+cable,1,68,37,0.54411765,3,3.4,0,0,0
+fiber,1,130,70,0.53846154,3,1.68,0,0,0
+fixed_wireless,2,179,105,0.58659218,4,4.0,0,0,0
+none,3,227,111,0.48898678,5,4.32,1.63,0.52,0.52
+satellite,13,1531,854,0.55780536,32,25.61,5.86,2.61,0.05
