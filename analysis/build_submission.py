@@ -8,7 +8,6 @@ the solution and is not counted.
 
 import argparse
 import re
-import shutil
 import sys
 from pathlib import Path
 
@@ -16,11 +15,24 @@ import typst
 from pypdf import PdfReader, PdfWriter
 
 ROOT = Path(__file__).resolve().parents[1]
-TEAM = "13528"
-NAME = "ICM_D13528张芯源郭康杰袁懋.pdf"
+TEAM = "TEAM REQUIRED"
 MAX_SOLUTION_PAGES = 25
 MAX_BYTES = 25_000_000
-IDENTIFIERS = ("张芯源", "郭康杰", "袁懋", "重庆", "Chongqing", "弘深", "20252209", "20252192", "20252208", "CQU")
+
+# Institutional identifiers that must never appear in the anonymous part of the
+# submission. Personal identifiers (names, student IDs, phone numbers) are read
+# from the Git-ignored ``private/identifiers.txt`` so they are not published.
+INSTITUTIONAL_IDENTIFIERS = ("重庆", "Chongqing", "弘深", "CQU")
+PRIVATE_IDENTIFIERS = ROOT / "private" / "identifiers.txt"
+
+
+def sensitive_identifiers() -> tuple[str, ...]:
+    tokens = list(INSTITUTIONAL_IDENTIFIERS)
+    if PRIVATE_IDENTIFIERS.exists():
+        tokens.extend(line.strip() for line in
+                      PRIVATE_IDENTIFIERS.read_text(encoding="utf-8").splitlines()
+                      if line.strip())
+    return tuple(tokens)
 
 
 def compile_documents(tmp: Path, team: str) -> tuple[Path, Path]:
@@ -31,7 +43,7 @@ def compile_documents(tmp: Path, team: str) -> tuple[Path, Path]:
     return solution, ai
 
 
-def merge(cover: Path | None, solution: Path, ai: Path, out: Path) -> tuple[int, int]:
+def merge(cover: Path | None, solution: Path, ai: Path, out: Path, team: str) -> tuple[int, int]:
     writer = PdfWriter()
     sources = (cover, solution, ai) if cover is not None else (solution, ai)
     for source in sources:
@@ -39,7 +51,7 @@ def merge(cover: Path | None, solution: Path, ai: Path, out: Path) -> tuple[int,
             writer.add_page(page)
     writer.add_metadata({
         "/Title": "The Last Mile of Broadband: A Cost-Effective, Equitable Investment Plan",
-        "/Author": "Team 13528",
+        "/Author": f"Team {team}",
         "/Subject": "ICM Problem D solution",
         "/Creator": "Typst",
     })
@@ -101,9 +113,9 @@ def validate(cover: Path | None, solution: Path, ai: Path, pdf: Path, team: str)
 
     # Anonymity: no names, institution, student numbers or local paths anywhere.
     body = " ".join(texts[offset:])
-    for token in IDENTIFIERS:
+    for token in sensitive_identifiers():
         assert token not in body, f"identifier leaked into solution: {token!r}"
-    assert "github.com/13608359051" not in body
+    assert "github.com" not in body.lower()
     assert not re.search(r"[A-Za-z]:\\\\", body) and "Users" not in body
 
     # Required sections, in order.
@@ -138,13 +150,16 @@ def validate(cover: Path | None, solution: Path, ai: Path, pdf: Path, team: str)
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--team", default=TEAM)
+    parser.add_argument("--team", default=TEAM,
+                        help="Control number issued by the organizer.")
     parser.add_argument("--cover", type=Path, default=ROOT / "private/cover.pdf",
                         help="School cover PDF; pass an empty value to build the anonymous edition.")
-    parser.add_argument("--out", type=Path, default=ROOT / "private" / NAME)
+    parser.add_argument("--out", type=Path, default=None,
+                        help="Output path; defaults to private/ICM_D<team>.pdf.")
     args = parser.parse_args(argv)
     if not re.fullmatch(r"[A-Za-z0-9-]{1,20}", args.team):
         parser.error("team number must be letters, digits or hyphens")
+    out = args.out or ROOT / "private" / f"ICM_D{args.team.replace(' ', '_')}.pdf"
     cover_text = str(args.cover).strip()
     cover = None if cover_text in ("", ".") else Path(cover_text)
     if cover is not None and not cover.exists():
@@ -152,9 +167,9 @@ def main(argv=None):
     tmp = ROOT / "private" / "build"
     tmp.mkdir(parents=True, exist_ok=True)
     solution, ai = compile_documents(tmp, args.team)
-    merge(cover, solution, ai, args.out)
-    validate(cover, solution, ai, args.out, args.team)
-    print(f"wrote {args.out}")
+    merge(cover, solution, ai, out, args.team)
+    validate(cover, solution, ai, out, args.team)
+    print(f"wrote {out}")
     return 0
 
 

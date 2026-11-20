@@ -4,11 +4,11 @@ Updated 20 November 2026.
 
 ## Final school-qualifier edition
 
-- File: `private/ICM_D13528张芯源郭康杰袁懋.pdf` (not committed; `private/` is Git-ignored).
+- File: `private/ICM_D<队号>_<成员>.pdf` (not committed; `private/` is Git-ignored).
 - Structure: 1 school cover (A4) + 24 solution pages + 2 AI-report pages = 27 pages.
-- Running header on every solution page after the summary sheet: `Team # 13528 ... Page X of 24`.
-- Page 1 is the COMAP-style summary sheet (no running header); page 2 is the Contents; page 24 is References; the Report on Use of AI Tools follows the references with no running header and is excluded from the 25-page limit.
-- Checked by `analysis/build_submission.py`: page count, A4 size, headers, summary-sheet contents, anonymity (no names, institution, student IDs or local paths in the solution and AI report), continuous figure/table numbering, in-text citation coverage, and PDF size (<25 MB).
+- Running header on every solution page after the summary sheet: `Team # <队号> ... Page X of <n>`.
+- Page 1 is the COMAP-style summary sheet (no running header); page 2 is the Contents; References are last; the Report on Use of AI Tools follows the references with no running header and is excluded from the 25-page limit.
+- Checked by `analysis/build_submission.py`: page count, A4 size, headers, summary-sheet contents, anonymity (no names, institution, student IDs or local paths in the solution and AI report; personal tokens are read from Git-ignored `private/identifiers.txt`), continuous figure/table numbering, in-text citation coverage, and PDF size (<25 MB).
 - Fonts: `pdffonts` shows embedded Times New Roman for the body; Chinese characters occur only on the school cover (SimSun), never in the solution or AI report.
 
 ## Review edition (anonymous)

@@ -16,7 +16,7 @@ for the school-qualifier PDF, which puts the cover before the summary.
 | p. 3, Task 3 | Solution pp. 15-18: three mechanisms under common budget, period, standard and floor; hub-cost equation (8); lease and net-outlay equation (9); cost structure; stakeholder incidence; verified-overlay table; robustness figure; recommendation. |
 | pp. 3-4, Share Your Insights | Solution pp. 18-21: benefit measure, most-benefiting township (West Plains 1,367), equity counterfactual with slack explanation, measurement-determines-equity subsection, and the demand-versus-barriers measurement plan. |
 | p. 4, one-page memo | Solution p. 23: a single page addressed to the Board with recommendation, why the grant cannot be spent, what the rule change buys, who gains and pays, conditions, decision requested, 90-day actions and risks. |
-| p. 4, output format | Solution p. 1 Summary Sheet, p. 2 Contents, pp. 3-23 solution and memo, p. 24 References, then two AI-report pages with no header; every other solution page carries `Team # 13528 ... Page X of 24`. |
+| p. 4, output format | Solution p. 1 Summary Sheet, p. 2 Contents, pp. 3-23 solution and memo, p. 24 References, then two AI-report pages with no header; every other solution page carries `Team # <队号> ... Page X of 24`. |
 
 Numerical conditions, evidence caveats and results agree with the worksheets. The paper
 describes scenario outcomes for synthetic data; actual eligibility changes, field service,

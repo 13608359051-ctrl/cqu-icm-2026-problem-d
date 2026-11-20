@@ -44,12 +44,12 @@ $data = (Resolve-Path '..\Problem\2026_CQU_ICM_Problem_D_DATA').Path
 
 ### 校赛提交版（含封面与真实队号）
 
-1. 用 Word 打开 `..\校赛封面.docx`，补填论文题目（本次已填 "The Last Mile of Broadband"），导出为 `private/cover.pdf`（A4，一页）。
-2. 构建并自动校验：
+1. 用 Word 打开 `..\校赛封面.docx`，补填论文题目（例如 "The Last Mile of Broadband"），导出为 `private/cover.pdf`（A4，一页）。
+2. 把本队队号和需要匿名的个人信息写入 Git 忽略的 `private/identifiers.txt`（每行一个姓名、学号或电话），供构建脚本做匿名检查。
+3. 构建并自动校验：
 
 ```powershell
-& $py analysis/build_submission.py --team 13528
-# 输出 private/ICM_D13528张芯源郭康杰袁懋.pdf
+& $py analysis/build_submission.py --team <队号> --out "private/ICM_D<队号><成员姓名>.pdf"
 ```
 
 构建脚本会校验：封面 1 页、正文 ≤25 页、每页页眉与页码、Summary Sheet 首屏、AI 报告位于正文后且不计页数、无姓名/校名/学号/本地路径、全部 A4、图表与公式连续编号、PDF 小于 25 MB。
@@ -57,7 +57,7 @@ $data = (Resolve-Path '..\Problem\2026_CQU_ICM_Problem_D_DATA').Path
 ### 匿名版（COMAP 版式检查用）
 
 ```powershell
-& $py analysis/build_submission.py --team 13528 --cover "" --out private/ICM_anonymous.pdf
+& $py analysis/build_submission.py --team <队号> --cover "" --out private/ICM_anonymous.pdf
 ```
 
 ## 从原始附件复现
