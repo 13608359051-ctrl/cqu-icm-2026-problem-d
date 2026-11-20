@@ -9,11 +9,21 @@ We count households once, use road observations as a diagnostic, and solve the g
 
 OpenAI Codex was used for modeling, code, calculations, figures, drafting and independent subagent checks. The appended report documents the scope and the team review status. #cite("12")
 
+#image(workflow-fig, width: 100%)
+#caption[*Workflow diagram.* The strict rule determines the current allocation. The subsequent deployments and mechanism rankings are conditional on rule changes.]
+
+#pagebreak()
 = Data and service definition
 
 We model a fixed terrestrial offer capable of at least 100 Mbps down and 20 Mbps up. The speed benchmark follows the FCC's 2024 fixed broadband report. The planning reference year and dollar basis are 2026. The provided synthetic file has no observation dates. Satellite is excluded from the qualifying planning proxy because local offer, capacity and performance data are missing, while its original flag remains binding under the problem's strict rule. This is a modeling convention for a terrestrial deployment program. #cite("1", "2")
 
-For township $t$, $H_t$ is the sum of block households and $S_t$ is the sum of block subscription households. Its subscription rate is $S_t / H_t$. Surveyed roads join many-to-one to blocks and are aggregated separately by block; joining first and summing household columns would weight blocks by the number of observed segments.
+Let $H_i$ and $S_i$ count households and subscription households in block $i$. Let $M_i$ be the raw served flag and $T_i$ the technology label. With $cal(T) = {"fiber", "cable", "fixed wireless"}$, the township counts and rates are
+
+$ H_t = sum_(i in t) H_i, quad S_t = sum_(i in t) S_i, quad "subscription rate" = S_t / H_t. $
+$ m_t = sum_(i in t) H_i M_i, quad b_t = sum_(i in t : T_i in cal(T)) H_i M_i,
+  quad "claim-rate gap" = (m_t - b_t) / H_t. $
+
+Here $m_t$ counts households in all map-served blocks. The narrower $b_t$ proxy credits the entire household count in flagged terrestrial blocks. It assumes that those claims meet the service threshold. Surveyed roads join many-to-one to blocks and are aggregated separately. Summing households after the road join would count some homes two or three times.
 
 #tab((1.7fr, 1fr, 1fr, .95fr, .88fr, 1.08fr), ([Township], [Total HH], [Subscribed], [Sub. %], [Served blocks], [Terrest. HH]), rows("townships"))
 #caption[*Table 1.* Households (HH), subscriptions, original map flags and baseline terrestrial-claim proxy. All six townships are strictly ineligible.]
@@ -26,11 +36,15 @@ The two original/V2 pairs are byte-identical. Primary keys are unique and all 24
 #image(coverage-fig, width: 100%)
 #caption[*Figure 1.* Township household shares computed from the block CSV. Flagged and terrestrial shares assign the indicated technology to each household in the flagged block. Subscriptions include all technologies.]
 
-North Ridge has 17 flagged blocks. Thirteen are coded as satellite (1,531 households) and four as cable, fiber or fixed wireless (377 households). The all-technology map-imputed rate is 89.37%. The terrestrial-claim proxy is 17.66%, giving a 71.71 percentage-point discrepancy. Subscriptions reach 55.13%, and the file does not identify their speeds, providers or technology. Road signal at or below −110 dBm accounts for only 2.61 of 25.61 observed road-miles in satellite-coded blocks. The sample illustrates how a roadside reading can coexist with a satellite label. It cannot establish continuity of a wired network or service at a residence. #cite("1")
+North Ridge has 17 flagged blocks. Thirteen are coded as satellite (1,531 households) and four as cable, fiber or fixed wireless (377 households). The map-imputed rate is 89.37% and the terrestrial proxy is 17.66%, a gap of 71.71 percentage points. Subscriptions reach 55.13%, without known speeds, providers or technology. For a group of survey segments $G$ with lengths $ell_r$ and signals $s_r$ in dBm, the observed weak-signal share at cutoff $tau$ is
+
+$ w(G, tau) = (sum_(r in G : s_r <= tau) ell_r) / (sum_(r in G) ell_r). $
+
+At −110 dBm the satellite-coded group has 2.61 of 25.61 surveyed road-miles below or at the cutoff. The diagnostic never assigns wired availability or weights households. #cite("1")
 
 No provider identifier links the narrative's national cable operator to individual records. In the one North Ridge block coded cable (68 households), zero of 3.40 observed road-miles meet the weak-signal diagnostic. This does not validate the cable claim. North Ridge is the only explicitly northern-named township. The data do not locate any other blocks geographically, so this estimate refers to North Ridge alone. Major, Teixeira and Mayer found historical map overstatement using independent address-level ISP queries across nine US states. Their study supports the verification method. Its error rates are not transferred to this synthetic county. #cite("3")
 
-The 1,531 households are the exposure within the satellite-coded group. For a fraction $q$ eventually verified to lack a qualifying alternative, round $1531 q$ to the nearest household, with half rounded up. The 0%, 25%, 50% and 100% scenarios yield 0, 383, 766 and 1,531 households. These conditional counts have no associated probabilities or statistical confidence interval. Across all flagged North Ridge blocks, only the uninformative range of 0–1,908 is supportable without more evidence.
+The 1,531 households are the exposure within the satellite-coded group. For a fraction $q$ eventually verified to lack a qualifying alternative, $N(q) = floor(1531q + 1/2)$. At 0%, 25%, 50% and 100%, this yields 0, 383, 766 and 1,531 households. The data supply no probabilities or statistical confidence interval. Across all flagged North Ridge blocks, the observational bound is 0–1,908.
 
 #pagebreak()
 == Accept the map or file a challenge?
@@ -38,7 +52,7 @@ The 1,531 households are the exposure within the satellite-coded group. For a fr
 #tab((1.18fr, 1.7fr, 2.15fr), ([Scenario], [County cost / elapsed], [Expected grant consequence]), rows("challenge"), left-columns: (0, 1, 2))
 #caption[*Table 2.* Challenge outcomes refer to a documented correction in the targeted satellite-coded group. Cost and time are planning assumptions.]
 
-A base audit of 184 staff hours at \$65.68 per hour plus \$500 cash costs \$12,585.12. A half-to-double workload and cash envelope gives \$6,292.56–\$25,170.24. The hourly benchmark includes employer benefits and is the US December 2025 state and local government average. The labor and cash quantities are scenario inputs. #cite("4")
+The base audit uses 128 hours for address queries, 32 for preparation and 24 for follow-up. At \$65.68 per hour plus \$500 cash, the cost is $65.68(128+32+24)+500$, or \$12,585.12. Halving or doubling the hours and cash yields \$6,292.56–\$25,170.24. The hourly benchmark includes benefits and is the December 2025 US state and local government average. #cite("4")
 
 We allow 30 days to assemble evidence. For timing context, the FCC process provides an initial 60 days for the provider, up to 60 more for disputed cases, adjudication and a map-revision step. Our routine and contested cases allow up to about 120 and 270 days from preparation, respectively, before extra publication or screening lag. These durations are for planning and do not confer authority under the problem's grant rules. Obtain address-level order denials, service quotes, installation dates, products and speeds. Invite the provider to correct errors or produce installation records before escalation. #cite("5")
 

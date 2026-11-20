@@ -68,6 +68,31 @@ def schematic(out):
     save(fig, out / "fig_model.svg")
 
 
+def workflow(out):
+    fig, ax = plt.subplots(figsize=(8.1, 4.3), layout="constrained")
+    ax.set_axis_off()
+    ax.set(xlim=(0, 8), ylim=(0, 4.12))
+    steps = [
+        (.08, 2.99, "1  Audit the inputs", "Flags, subscriptions and\nroad evidence"),
+        (4.40, 2.99, "2  Apply the strict rule", "All six towns ineligible.\nHold construction awards."),
+        (4.40, 1.55, "3  Test rule changes", "Allow unserved blocks and\ncheck a verified override"),
+        (.08, 1.55, "4  Optimize deployment", "Budget, terrain, distance\nand a township floor"),
+        (.08, .11, "5  Compare procurement", "Cooperative, tender and\ncounty partnership"),
+        (4.40, .11, "6  Evaluate and decide", "Remove the floor as a test.\nMeasure work and school use."),
+    ]
+    for x, y, title, label in steps:
+        ax.add_patch(FancyBboxPatch((x, y), 3.5, .98, boxstyle="round,pad=.035",
+                                    fc="#fdf2e3" if title.startswith("2") else "#eef5f5",
+                                    ec=COLORS[0], lw=1.15))
+        ax.text(x + .15, y + .74, title, color=COLORS[0], fontsize=14, weight="bold", va="center")
+        ax.text(x + .15, y + .37, label, color="#19272c", fontsize=13, va="center", linespacing=1.15)
+    for start, end in [((3.65, 3.48), (4.33, 3.48)), ((6.15, 2.94), (6.15, 2.60)),
+                       ((4.34, 2.04), (3.65, 2.04)), ((1.83, 1.49), (1.83, 1.16)),
+                       ((3.65, .60), (4.33, .60))]:
+        ax.annotate("", xy=end, xytext=start, arrowprops={"arrowstyle": "->", "color": COLORS[1], "lw": 1.75})
+    save(fig, out / "fig_workflow.svg")
+
+
 def charts(out, data, mechanisms, towns, recommended):
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 12, "svg.hashsalt": "cqu-d-2026",
                          "axes.spines.top": False, "axes.spines.right": False, "axes.axisbelow": True})
@@ -108,6 +133,7 @@ def charts(out, data, mechanisms, towns, recommended):
     ax.legend(loc="lower center", bbox_to_anchor=(.5, 1.01), ncol=2, frameon=False)
     save(fig, out / "fig_benefit.svg")
     schematic(out)
+    workflow(out)
 
 
 def build(out):

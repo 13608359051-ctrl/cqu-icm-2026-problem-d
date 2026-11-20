@@ -6,7 +6,7 @@
 
 ## 论文和复现
 
-- 英文审阅 PDF 位于 [output/pdf/Problem-D-review.pdf](output/pdf/Problem-D-review.pdf)。正文 15 页，AI 披露 5 页，备忘录在第 14 页。页眉以 `TEAM NUMBER REQUIRED` 标明队号待填。
+- 英文审阅 PDF 位于 [output/pdf/Problem-D-review.pdf](output/pdf/Problem-D-review.pdf)。正文 16 页，AI 披露 5 页，总体流程图在第 3 页，备忘录在第 15 页。页眉以 `TEAM NUMBER REQUIRED` 标明队号待填。
 - 可编辑论文位于 [paper/main.typ](paper/main.typ)，各章节为同目录的 `.typ` 文件。正文采用 12 磅 Libertinus Serif。AI 披露附上保留原语言的提示词，Windows 使用 Microsoft YaHei 显示原文，在其他系统可安装 Noto Sans CJK SC。
 - 附件由队员从本届校赛发放包取得。将 `--data` 指向含 `blocks.csv`、`blocksV2.csv`、`road_segments.csv`、`road_segmentsV2.csv` 的 `2026_CQU_ICM_Problem_D_DATA` 文件夹。四个文件的校验值和字段核对见 [原始输入审计](results/task1_data_audit.json)。题面 PDF 和 AI 政策从同一发放包取得。
 

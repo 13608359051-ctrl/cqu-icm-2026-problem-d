@@ -8,6 +8,10 @@
     "text": "论文要有引用其他论文\n"
   },
   {
+    "title": "Follow-up request on equations and workflow",
+    "text": "必要的计算公式等也正确无误的在论文中说明，可以在论文中加入总体流程图，最后交付前再进行细节题目重读检查。\n"
+  },
+  {
     "title": "Initial task to subagent A",
     "text": "负责 Task 1 和数据审计。立刻读 [workspace path omitted] 原始 PDF、AI 政策、CSV、V2等（PDF skill as applicable），核对附件哈希、键、单位、证据、订阅率、覆盖/不确定性、挑战成本和情景影响。先向我与 B/C 发共享口径和事实。完成可运行脚本及小型清晰结果表、方法/英文写作要点（你是结果作者）；工作树位置等我立即同步，准备阶段先读原始文件，勿触碰队友现有工作或远端。后续独立复核 C，按要求读取原始输入、先独算再对比。记录真实 AI 提示/工具与输出证据。"
   },

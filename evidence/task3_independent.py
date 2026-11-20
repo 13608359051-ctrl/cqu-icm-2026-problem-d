@@ -5,6 +5,7 @@ import csv
 import json
 import math
 from collections import Counter, defaultdict
+from fractions import Fraction
 from pathlib import Path
 from statistics import median
 from typing import NamedTuple
@@ -202,8 +203,8 @@ def compare(results, directory):
         with (directory / f"task3_{name}.csv").open(encoding="utf-8-sig", newline="") as source:
             return list(csv.DictReader(source))
 
-    summary, actions, towns, hubs, providers = map(
-        read, ("summary", "actions", "towns", "hubs", "providers")
+    summary, actions, towns, hubs, providers, finance = map(
+        read, ("summary", "actions", "towns", "hubs", "providers", "finance")
     )
     model_names = {"cooperative": "coop", "competitive": "tender", "county PPP": "ppp"}
     operators = {"regional cooperative": "coop", "national cable operator": "cable",
@@ -257,6 +258,27 @@ def compare(results, directory):
         assert {r["town"] for r in relevant(hubs)} == set(check["opened_hubs"]), key
         assert sum(int(r["lease_paid_pv"]) for r in relevant(providers)) == check["lease_pv_usd"], key
     print(f"PASS: matching status and outputs for all {len(summary)} Task 3 runs.")
+
+    # An exact rational discount factor verifies the rounded financing rows independently.
+    annuity = sum(Fraction(100, 103) ** year for year in range(1, 11))
+    fees = (0, 2400, 4800, 7200)
+    assert len(finance) == 8 and {
+        (row["scenario"], int(row["fee_per_lease_year"])) for row in finance
+    } == {(scenario, fee) for scenario in ("block", "verified") for fee in fees}
+    for row in finance:
+        check = results[f"ppp/{row['scenario']}/equity=True/footprint=0/hub=1"]
+        count = len(check["leases"])
+        op_cost = check["county_maintenance_pv"]
+        payment = count * round(annuity * int(row["fee_per_lease_year"]))
+        expected = {
+            "leases": count, "lease_pv": payment, "county_o_and_m_pv": op_cost,
+            "county_om_funding_gap_pv": op_cost - payment,
+            "net_county_outlay": check["gross_pv_usd"] - payment,
+        }
+        assert all(int(row[key]) == value for key, value in expected.items()), row
+        assert math.isclose(float(row["om_break_even_fee_per_lease_year"]),
+                            op_cost / (annuity * count)), row
+    print("PASS: all 8 lease-price rows match exact rational discounting.")
 
 
 def main(data, out, compare_dir):
