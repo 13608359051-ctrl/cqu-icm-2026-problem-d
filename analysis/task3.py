@@ -16,6 +16,8 @@ CABLE = "national cable operator"
 STARTUP = "fixed wireless entrant"
 MECHANISMS = ("cooperative", "competitive", "county PPP")
 LEASE_PER_YEAR = 4800
+WIRELESS_SHIFTS = {"wireless-minus10pp": -10, "wireless-plus10pp": 10}
+LATERAL_OFFSETS = {f"lateral-plus-{miles}mi": miles for miles in (1, 2, 3)}
 
 
 def repriced(action, provider, backhaul_factor=1, last_mile_factor=1, hub=None):
@@ -27,7 +29,7 @@ def repriced(action, provider, backhaul_factor=1, last_mile_factor=1, hub=None):
     )
 
 
-def portfolio_menu(blocks, actions, mechanism, footprint_shift=0, hub_multiplier=1):
+def portfolio_menu(blocks, actions, mechanism, footprint_shift=0, hub_multiplier=1, lateral_offset=0):
     if mechanism == "cooperative":
         return [replace(a, provider=COOP) for a in actions], []
     technologies = defaultdict(set)
@@ -57,7 +59,7 @@ def portfolio_menu(blocks, actions, mechanism, footprint_shift=0, hub_multiplier
         if ppp:
             anchor_distance, _ = hub_data[town]
             # shortcut: radial distance proxy only; replace with engineered routes and capacity before procurement.
-            lateral_miles = abs(distance - anchor_distance) + 0.5
+            lateral_miles = abs(distance - anchor_distance) + 0.5 + lateral_offset
             if lateral_miles <= 6:
                 lateral_factor = lateral_miles / distance
                 offers.append(repriced(action, COOP, lateral_factor, hub=town))
@@ -218,7 +220,9 @@ def main():
     ])
     # Rerun each comparison under identical eligibility and costs; any recommended mechanism has a matching row.
     experiments.extend(("no-equity", "block", m, 0, BUDGET, 0, 1, 1) for m in MECHANISMS)
+    experiments.extend((case, "block", "county PPP", FLOOR, BUDGET, 0, 1, 1) for case in LATERAL_OFFSETS)
     for mechanism in MECHANISMS:
+        experiments.extend((case, "block", mechanism, FLOOR, BUDGET, 0, 1, 1) for case in WIRELESS_SHIFTS)
         experiments.extend([
             ("budget-9m", "block", mechanism, FLOOR, 9_000_000, 0, 1, 1),
             ("budget-13m", "block", mechanism, FLOOR, 13_000_000, 0, 1, 1),
@@ -227,7 +231,9 @@ def main():
             ("verified-50pct", "verified", mechanism, .50, BUDGET, 0, 1, 1),
         ])
     for scenario, rule, mechanism, equity, budget, footprint_shift, hub_multiplier, om_scale in experiments:
-        actions, hubs = portfolio_menu(blocks, make_actions(blocks, rule), mechanism, footprint_shift, hub_multiplier)
+        menu = make_actions(blocks, rule, wireless_shift=WIRELESS_SHIFTS.get(scenario, 0))
+        actions, hubs = portfolio_menu(blocks, menu, mechanism, footprint_shift, hub_multiplier,
+                                       LATERAL_OFFSETS.get(scenario, 0))
         if om_scale != 1:
             actions = [replace(a, o_and_m=round(a.o_and_m * om_scale)) for a in actions]
             hubs = [replace(h, o_and_m=round(h.o_and_m * om_scale)) for h in hubs]

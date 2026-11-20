@@ -19,7 +19,7 @@
 #ref(9, [Pierce County. _Broadband Strategic Plan and Facilitation Study_. Section 4.1, March 2021.])
 #ref(10, [Kumar, S. K. A., & Oughton, E. J. "Infrastructure Sharing Strategies for Wireless Broadband." _IEEE Communications Magazine_ 61(7), 46–52, 2023.])
 #ref(11, [Nardotto, M., Valletti, T., & Verboven, F. "Unbundling the Incumbent: Evidence from UK Broadband." _Journal of the European Economic Association_ 13(2), 330–362, 2015.])
-#ref(12, [OpenAI. _Codex_, GPT-6.2 Sol, November 20, 2026. Model development, coding, figure generation and draft writing. See the Report on Use of AI Tools.])
+#ref(12, [OpenAI. _Codex_, GPT-6.2 Sol (original analysis) and GPT-6 Codex (audit and revision), November 20, 2026. Model development, coding, figures, writing and numerical review. See the Report on Use of AI Tools.])
 #ref(13, [SciPy Developers. _scipy.optimize.milp_, SciPy 1.16.3. HiGHS-backed mixed-integer linear solver.])
 #ref(14, [Federal Communications Commission. _Performance Measures for Connect America High-Cost Universal Service Support_. FCC 19-104, WC Docket 10-90, 2019.])
 #ref(15, [Federal Communications Commission. _Rural Digital Opportunity Fund Phase I Auction: Procedures_. FCC 20-77, 2020.])

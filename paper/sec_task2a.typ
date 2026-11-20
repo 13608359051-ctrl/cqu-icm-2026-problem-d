@@ -24,16 +24,16 @@ $ K^B_(i F) = 42,240 d_i (1 + 0.16 u_i), quad K^L_(i F) = 980 H_i (1 + 0.10 u_i)
 $ K^B_(i W) = 5,500 d_i (1 + 0.10 u_i), quad K^L_(i W) = 28,000 (1 + 0.08 u_i) + 480 h_(i W). $
 
 The fiber route rate is \$8 per foot, the 2025 U.S. aerial-construction median, converted at
-5,280 feet per mile and expressed in 2026 dollars. The \$980 per-household allowance covers
+5,280 feet per mile and carried into the 2026 scenario with no price adjustment. The \$980 per-household allowance covers
 local distribution and the drop; it exceeds the drop-only medians in the same survey. The
 wireless site and backhaul values assume suitable mounting sites and need local quotes. The
 parameter register records the basis of every scenario input. #cite("8", "9")
 
-As a check, fiber to North Ridge block 420010000008 uses $H_i = 85$, $d_i = 1.1$ miles and
-$g_i = 2$: backhaul is \$53,898, last mile is \$91,630 and discounted maintenance adds
-\$22,345, for a life-cycle cost of \$167,873 over 85 modeled opportunities. The selected direct
-portfolio includes this block. Figure 4 shows the two service paths schematically; the cost of
-each path is driven by distance and terrain as in (3)-(4).
+For North Ridge block 420010000008, $H_i=85$, $d_i=1.1$ miles and $g_i=2$. Fiber costs
+\$53,898 for backhaul, \$91,630 for the last mile and \$22,345 for discounted maintenance:
+\$167,873 for 85 qualifying opportunities. Wireless would cost \$87,179 for 63. Although
+wireless has the lower cost per qualifying household (\$1,384 versus \$1,975), the direct
+optimum selects fiber and reaches 22 additional households. Figure 4 shows the modeled paths.
 
 #fig(model-fig, 4)[Candidate service paths. The links and hub are schematic: the attachment has no
 coordinates, tower locations or route endpoints.]
@@ -65,14 +65,13 @@ fraction is $(b_t + G_t)/H_t$ and the remaining shortfall is $max(0, L_t - b_t -
 a claimed-availability baseline and is not a subscription rate. The inputs specify neither a
 budget nor a floor, which is why both are treated as policy scenarios.
 
-The 25\% phase-one floor is a policy target rather than an estimate. It lies above the three
-lowest claimed-access baselines (17.66\%, 17.84\% and 19.27\%) and below the 28.29\% ceiling
-that North Ridge can reach after block reform, so it is binding but attainable. We also solve
-the model with a 0\% floor and a 50\% floor to show how the choice changes the answer. Only one
-technology is allowed per block: if a block is eligible for both fiber and fixed wireless, the
-lower cost per qualifying household dominates, and splitting a project between technologies
-only adds duplicate backhaul, so a single-technology choice is without loss of generality at
-this scale.
+The 25\% phase-one floor exceeds the three lowest claimed-access baselines (17.66\%,
+17.84\% and 19.27\%) and lies below North Ridge's 28.29\% ceiling after block reform.
+The base direct and PPP optima clear it with minimum rates of #value("coop_min") and
+#value("ppp_min"), respectively. We also test 0\% and 50\%. Each block can receive one
+project in this phase. This engineering assumption reflects the absence of address-level
+costs and overlap data for a combined fiber/wireless build. The county portfolio may
+mix both technologies across blocks.
 
 The eligibility ceiling is $E_i = 1 - max_(k in t(i)) M_k$ under the strict township-wide
 rule; the block reform uses $E_i = 1 - M_i$; the verified overlay uses
@@ -92,20 +91,18 @@ results. Small hand-solvable cases exercise the budget, equity and tie-break log
 == Feasibility under the strict rule
 
 Under the strict rule the six townships have 17, 12, 13, 7, 15 and 9 served blocks, so every
-$E_i$ group is zero and the only feasible construction allocation is zero coverage. At the
+$E_i$ group is zero and the only allocation allowed by the veto adds zero households. At the
 25\% floor that allocation is also insufficient: North Ridge is short 157 households, West
 Plains is short 120 and River Bend is short 204, while the other three townships clear the
 floor at baseline. Raising the construction budget alone cannot remove the shortfall because
 the binding constraint is eligibility, not money. With the floor removed, the strict solution
-is feasible and adds zero households. The infeasibility therefore has a single identified
-source: the township-wide veto converts one served flag into a zero ceiling for every block
-in the township. #cite("5")
+is feasible and adds zero households. The veto conflicts with the positive shortfalls in these three townships. #cite("5")
 
 == Eligibility reform and the deployment plan
 
 Block-level eligibility makes the 25\% floor feasible. The least-cost feasible package adds
 #value("min_funding_new") opportunities for #value("min_funding"), which is the minimum
-public outlay that satisfies every township floor. The largest affordable coverage-maximal
+public outlay that satisfies every township floor. The coverage-maximizing direct
 package adds #value("t2_main_hh") opportunities at a life-cycle cost of #value("t2_main_cost")
 using 12 fiber and 32 fixed-wireless projects. The township gains, in Table 2 order, are 223,
 912, 260, 920, 816 and 1,082 households, and the minimum post-deployment access proxy is
@@ -124,12 +121,11 @@ households in a credited block leaves North Ridge with at most 509 qualifying op
 after block reform, against 534 needed for the floor, so the plan becomes infeasible; this is
 the quantitative form of the uncertainty carried over from Task 1.
 
-*The recommended portfolio.* Table 5 disaggregates the 4,213-opportunity partnership plan by
-township and technology, including each town's share of county hub capital and discounted hub
-maintenance. The plan uses 28 fiber and 12 fixed-wireless projects. West Plains carries the
-highest cost per household (\$2,881) because its eligible blocks are distant and numerous, yet
-it also receives the largest share of the coverage; the objective is total qualifying coverage
-under the equity floor, not cost-efficiency within each township.
+*Comparison with shared backhaul.* Table 5 gives the Section 7 PPP portfolio by township,
+including each town's hub capital and discounted maintenance. With the same gross budget,
+eligibility rule and 25\% floor, its 28 fiber and 12 wireless projects add #value("ppp_hh")
+opportunities. West Plains has the largest gain and the highest gross cost per new household
+(\$2,881). The direct benchmark above uses 12 fiber and 32 wireless projects.
 
 #tabblock(5, [Recommended county partnership portfolio by township. F / W counts fiber and
 fixed-wireless projects; gross present value includes each town's hub capital and discounted

@@ -45,20 +45,20 @@ $H_t = sum_(i in t) H_i$, $S_t = sum_(i in t) S_i$, $r_t = S_t / H_t$. The house
 all served blocks is $m_t = sum_(i in t) H_i M_i$, while the narrower terrestrial-claim proxy
 is $b_t = sum_(i in t : T_i in cal(T)) H_i M_i$; the difference $(m_t - b_t)/H_t$ is the
 claim-rate gap. The full household count of a flagged terrestrial block is credited to the
-proxy, which assumes that those claims meet the service threshold; this overstates coverage
-and is therefore conservative for our eligibility conclusions. Road evidence is aggregated
+proxy, which assumes that those claims meet the service threshold; this gives the most favorable count inside
+those blocks. Eligibility under the strict rule follows the original flags regardless of the count. Road evidence is aggregated
 separately and is never joined to households, so a block intersected by three roads is not
 counted three times.
 
 #fig(coverage-fig, 2)[(a) The 20 census blocks of each township by reported claim. (b) Household
-shares by claim type, with the observed subscription rate marked as a dot. The gap between the
-bars and the dots is the measurement problem studied in Task 1.]
+shares by claim type, with the observed subscription rate marked as a dot. The subscription dot includes
+all technologies and measures adoption, while the bars describe map claims.]
 
 #tabblock(2, [Household counts, subscriptions, original map flags and the composition of the
 claimed coverage. Served and terrestrial columns count blocks; satellite and unserved columns
 count households. Every township contains at least one terrestrial-flagged block.], (1.4fr, .78fr, .82fr, .7fr, .66fr, .7fr, .76fr, .78fr), ([Township], [HH], [Subscribed], [Sub. \%], [Served blk], [Terrest blk], [Satellite HH], [Unserved HH]), rows("townships"))
 
-The baseline rates range from 21.96\% in South Hollow to 77.65\% in Central Town. The
+Observed subscription rates range from 21.96\% in South Hollow to 77.65\% in Central Town. The
 terrestrial-claim proxy $b_t/H_t$ is a claimed-availability measure, not a subscription rate;
 Figure 2(b) places the two side by side so the distinction stays visible. County-wide the map
 flags 73 blocks: 42 terrestrial-coded blocks containing 4,987 households, 31 satellite-coded

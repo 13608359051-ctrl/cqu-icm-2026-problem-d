@@ -3,64 +3,32 @@
 
 = Model Evaluation
 
-== Strengths
+== Strengths and limits of the evidence
 
-*The analysis separates what is observed from what is inferred.* Map claims, subscription counts
-and road signals are used as three different kinds of evidence, and the reclassification result
-is reported as a bounded exposure set with explicit scenarios rather than as a point forecast.
-This is the main reason the Task 1 conclusion is robust: even the most favorable challenge
-outcome does not unlock funding under the current rule. #cite("1", "3")
+*Eligibility.* All six townships have a served flag and three fall below the modeled floor
+before construction. Additional capital cannot fix that legal conflict. Block-level reform
+opens 47 originally unserved blocks, while any extension to the disputed northern blocks
+requires separate authorization and address evidence. #cite("1", "3")
 
-*Infeasibility is attributed to a specific constraint.* Rather than reporting a failed solve,
-the model identifies the township-wide eligibility veto as the binding constraint, proves that
-budget increases cannot repair it, and then evaluates the two rule changes that would. This
-lets the county distinguish a legal barrier from a fiscal one.
+*Engineering.* The data identify neither routes, tower sites nor individual addresses.
+Regional unit costs and terrain-specific wireless shares define planning scenarios. Fiber
+offers aim to serve a full block and wireless offers credit a terrain-dependent fraction;
+either requires field verification. Wireless serviceability produces the largest coverage
+range among the engineering inputs tested in Task 2. Under shared backhaul the lateral proxy
+also determines which providers can reach a block, and a longer route can reverse the
+procurement recommendation. #cite("7")
 
-*The mechanisms are compared on identical terms.* The same budget, period, service standard,
-eligibility and equity floor are applied to all three approaches, and the lease treatment in
-the partnership is explicit: gross cost must fit the budget and rents are credited afterward.
-Differences in coverage can therefore be attributed to the mechanism rather than to
-bookkeeping.
+*Finance and bidding.* The comparison holds the budget, service standard, horizon and floor
+constant. The \$11 million ceiling, ten-year horizon, lease fee, reach limits and bidder
+discounts are planning assumptions. Results reflect both ownership and the offers available
+under each mechanism. Confirm voluntary bidding areas, actual build costs, signed leases and
+the maintenance reserve before award.
 
-*Uncertainty is tested where it matters.* The plan is re-solved over plausible ranges of the
-two engineering parameters, the maintenance rate and the budget, and the procurement ranking is
-checked against hub cost, budget and maintenance variations. The dominant parameter,
-fixed-wireless serviceability, is identified and translated into a concrete measurement
-recommendation.
-
-*The results are reproducible.* All inputs are checked for key uniqueness, byte-identical
-duplicates and field ranges; the mixed-integer programs are solved to zero optimality gap; and
-the deployment and mechanism results are independently rebuilt, including a separate Pareto
-enumeration by township and hand-solvable test cases. #cite("13")
-
-== Weaknesses and limitations
-
-*The data are synthetic and spatially coarse.* There are no coordinates, routes, tower sites or
-address records, so distances are radial proxies and service paths are schematic. Cost
-coefficients are regional benchmarks, not local quotes. The model is a planning tool; it is
-not a substitute for engineering design.
-
-*Households are treated as homogeneous within a block.* A block is credited as covered when the
-model selects a project, even though some addresses inside it may remain unserviceable. The
-fixed-wireless serviceability probabilities are assumptions supported by the literature, not
-measurements, and the address audit in Task 1 is the natural remedy. #cite("7")
-
-*Benefit is measured as orderable opportunities, not welfare.* The model does not include
-take-up, retail prices, consumer surplus or the value of specific work and school activities.
-The effective-use framework in Section 8 is deliberately separate from the optimization
-because the files cannot support it. A use-based or subscription-based equity floor would
-change which township is binding, as the South Hollow comparison shows.
-
-*Several policy inputs are scenarios rather than facts.* The budget, the 25\% floor, the lease
-rate and the verified-overlay assumption are all stated explicitly and varied where possible,
-but the county must confirm them before the recommendation is executed. The bidder cost
-multipliers (70\%/90\% and 75\%/95\% of direct cost) determine who wins which project and could
-not be varied without observed bid data; they are the largest untested assumption in Task 3.
-
-*The model is static and single-period.* It does not represent construction sequencing,
-inflation, technological change, competitive entry or the county's cost of capital, and it
-treats providers' bids as parametric. A dynamic or auction-based extension is left for future
-work.
+*Household benefit.* The objective counts additional opportunities to order 100/20 service.
+Prices, installation, adoption and effective use determine the benefit realized at home.
+The South Hollow data motivate collecting those outcomes before choosing a use-based
+equity floor. The present-value model also omits construction sequencing and future entries
+or exits by operators.
 
 == Validation and reproducibility
 
@@ -70,12 +38,5 @@ eligibility, budget and floor compliance directly from its vector, not from solv
 Third, the main deployment and mechanism results are rebuilt by an independent solver script;
 the direct result is also cross-checked by enumeration of township-level Pareto points. Fourth,
 small cases constructed by hand exercise the budget, equity and tie-breaking constraints. The
-reported optimality gaps are zero for all feasible runs. The parameter registers, result
-tables and scripts are supplied with the submission so that a reviewer can reproduce every
-number. #cite("13")
-
-Two extensions would strengthen the analysis most. The first is an explicit value-of-information
-calculation for the address audit (Section 4), which would price the evidence as an option rather
-than as a cost. The second is a subscription-based or use-based equity constraint, which would
-reallocate the plan toward South Hollow and test whether the county's stated floor is measuring
-what the problem intends.
+reported optimality gaps are zero for all feasible runs. Independent numerical checks establish consistency within these scenarios. Field surveys
+and binding offers are needed to test the inputs that drive the procurement ranking. #cite("13")

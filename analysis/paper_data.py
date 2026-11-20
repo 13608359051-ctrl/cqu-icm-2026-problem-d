@@ -178,7 +178,7 @@ def charts(out, data, mechanisms, towns, recommended, t2):
             ax1.text(s + w + .5, i, f"{w:.2f} mi", va="center", fontsize=8.5, color=navy)
     ax1.set(yticks=yy, yticklabels=names, xlabel="Surveyed road miles", xlim=(0, 30))
     ax1.invert_yaxis()
-    ax1.set_title("(a) Road-signal evidence", fontsize=9.5)
+    ax1.set_title("(a) Road signal at the −110 dBm cutoff", fontsize=9.5)
     ax1.legend(loc="upper right", frameon=False)
     ax1.grid(axis="x", alpha=.3)
 
@@ -189,7 +189,7 @@ def charts(out, data, mechanisms, towns, recommended, t2):
     ax2.bar(["0%", "25%", "50%", "100%"], vals, color=[GREY, gold, teal, navy])
     ax2.bar_label(ax2.containers[0], labels=[f"{v:,}" for v in vals], fontsize=8.5, padding=2)
     ax2.set(title="(b) North Ridge reclassification", ylabel="Households",
-            xlabel="Share of satellite-only addresses verified")
+            xlabel="Share verified to lack qualifying service\nin satellite-coded blocks")
     ax2.set_ylim(0, 1750)
     ax2.grid(axis="y", alpha=.3)
     save(fig, out / "fig_signal.svg")
@@ -207,8 +207,8 @@ def charts(out, data, mechanisms, towns, recommended, t2):
     labels = [p[0] for p in params]
     yy = np.arange(len(params))
     fig, ax = plt.subplots(figsize=(6.5, 2.5), layout="constrained")
-    ax.barh(yy, lows, color=teal, height=.52, label="low end of range")
-    ax.barh(yy, highs, color=navy, height=.52, label="high end of range")
+    ax.barh(yy, lows, color=teal, height=.52, label="Fewer opportunities")
+    ax.barh(yy, highs, color=navy, height=.52, label="More opportunities")
     for i, (lo, hi) in enumerate(zip(lows, highs)):
         ax.text(lo - 12, i, f"{lo:+d}", va="center", ha="right", fontsize=8.5, color=teal)
         ax.text(hi + 12, i, f"{hi:+d}", va="center", ha="left", fontsize=8.5, color=navy)
@@ -231,16 +231,14 @@ def charts(out, data, mechanisms, towns, recommended, t2):
                                    gridspec_kw={"width_ratios": [1.2, 1]})
     xs = [p[0] for p in frontier]
     ys = [p[1] for p in frontier]
-    ax1.plot(xs, ys, marker="o", color=navy, lw=1.3, ms=4.5)
+    ax1.scatter(xs, ys, color=navy, s=20)
     for x, y in frontier:
         ax1.annotate(f"{y:,}", (x, y), textcoords="offset points", xytext=(2, 8), fontsize=8, ha="center")
     ax1.set(xlabel="Budget (million 2026 USD)", ylabel="New household opportunities",
             xticks=[8, 9, 11, 13, 14], ylim=(3700, 4600))
-    ax1.set_title("(a) Budget-coverage frontier", fontsize=9.5)
+    ax1.set_title("(a) Reoptimized budget points", fontsize=9.5)
     ax1.grid(alpha=.3)
-    marginal = [(8, 11, (int(t2["block_base"]["new_hh"]) - int(t2["block_budget_8m"]["new_hh"])) / 3.0),
-                (11, 14, (int(t2["block_budget_14m"]["new_hh"]) - int(t2["block_base"]["new_hh"])) / 3.0)]
-    seg = [f"{a}-{b}m" for a, b, _ in marginal]
+    seg = ["$8–11m", "$11–14m"]
     cost_per = [(int(t2["block_base"]["lifecycle_usd"]) - int(t2["block_budget_8m"]["lifecycle_usd"]))
                 / (int(t2["block_base"]["new_hh"]) - int(t2["block_budget_8m"]["new_hh"])),
                 (int(t2["block_budget_14m"]["lifecycle_usd"]) - int(t2["block_base"]["lifecycle_usd"]))
@@ -250,7 +248,7 @@ def charts(out, data, mechanisms, towns, recommended, t2):
     ax2.bar_label(ax2.containers[0], labels=[f"${c:,.0f}" for c in cost_per] + [f"${average:,.0f}"],
                   fontsize=8.5, padding=2)
     ax2.set(ylabel="Cost per added household (USD)", ylim=(0, 16000))
-    ax2.set_title("(b) Marginal cost of coverage", fontsize=9.5)
+    ax2.set_title("(b) Segment and base average costs", fontsize=9.5)
     ax2.grid(axis="y", alpha=.3)
     save(fig, out / "fig_pareto.svg")
 
@@ -279,7 +277,7 @@ def charts(out, data, mechanisms, towns, recommended, t2):
 
     # Figure 8: mechanism ranking across tested scenarios.
     scenarios = (("Base", "block"), ("Budget $9m", "budget-9m"), ("Budget $13m", "budget-13m"),
-                 ("O&M 75%", "low-maintenance"), ("O&M 125%", "high-maintenance"),
+                 ("O&M 75%", "low-maintenance"), ("O&M 150%", "high-maintenance"),
                  ("Verified overlay", "verified"))
     x = np.arange(len(scenarios))
     fig, ax = plt.subplots(figsize=(6.5, 2.6), layout="constrained")
@@ -464,6 +462,18 @@ def build(out):
         "county_sub_rate": pct(100 * 6591 / 14496),
     }
     rows = {
+        "route_stress": [
+            [str(miles), count(r["new_hh"]), million(r["gross_cost"]), r["open_hubs"],
+             f'{int(r["new_hh"]) - int(coop["new_hh"]):+,}']
+            for miles, case in ((0, "block"), (1, "lateral-plus-1mi"),
+                                (2, "lateral-plus-2mi"), (3, "lateral-plus-3mi"))
+            for r in [m3[case, "county PPP"]]
+        ],
+        "wireless_mechanisms": [
+            [label] + [count(m3[case, m]["new_hh"]) for m in MECHANISMS]
+            for label, case in (("−10 pp", "wireless-minus10pp"), ("Base", "block"),
+                                ("+10 pp", "wireless-plus10pp"))
+        ],
         "townships": [
             [t, count(r["households"]), count(r["subscriptions"]), pct(float(r["subscription_rate"]) * 100),
              r["reported_served_blocks"], r["terrestrial_coded_blocks"],

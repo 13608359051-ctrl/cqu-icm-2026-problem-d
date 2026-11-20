@@ -1,35 +1,15 @@
-# Delivery and release status
+# 匿名修订版交付核对
 
-Updated 20 November 2026.
+2026-11-20。本版从队友稿 42d4d8043bb15b55cdcb9a7868abab22fdd92ff6 独立修订，工作分支为 local/d-audit-revision。本文件对应包内 output/pdf/Problem-D-review.pdf；其他历史版验收记录不适用于本 PDF。
 
-## Final school-qualifier edition
-
-- File: `private/ICM_D<队号>_<成员>.pdf` (not committed; `private/` is Git-ignored).
-- Structure: 1 school cover (A4) + 24 solution pages + 2 AI-report pages = 27 pages.
-- Running header on every solution page after the summary sheet: `Team # <队号> ... Page X of <n>`.
-- Page 1 is the COMAP-style summary sheet (no running header); page 2 is the Contents; References are last; the Report on Use of AI Tools follows the references with no running header and is excluded from the 25-page limit.
-- Checked by `analysis/build_submission.py`: page count, A4 size, headers, summary-sheet contents, anonymity (no names, institution, student IDs or local paths in the solution and AI report; personal tokens are read from Git-ignored `private/identifiers.txt`), continuous figure/table numbering, in-text citation coverage, and PDF size (<25 MB).
-- Fonts: `pdffonts` shows embedded Times New Roman for the body; Chinese characters occur only on the school cover (SimSun), never in the solution or AI report.
-
-## Review edition (anonymous)
-
-- File: `output/pdf/Problem-D-review.pdf`, committed for teammates.
-- Same solution and AI report without the school cover; the team number is replaced by the placeholder `TEAM REQUIRED`.
-- Build: `python analysis/build_paper.py` (optionally `--team` after confirmation).
-
-## Anonymous COMAP-style edition
-
-- Build with `python analysis/build_submission.py --team <number> --cover "" --out private/ICM_anonymous.pdf`.
-- The school cover carries names and student IDs by school requirement; it must not be used in the COMAP submission.
-
-## Rules checked on 20 November 2026
-
-- Local problem statement: English, one PDF, summary sheet first, table of contents, complete solution, in-text citations and reference list, AI-use report appended after the 25-page solution and excluded from the page count, anonymity other than the control number.
-- Local AI policy `Contest_AI_Policy.pdf` (COMAP v102025): disclose tools and versions, state purposes, keep prompt/output records, cite AI tools in text and references, append a separate report.
-- The AI report is now two English pages with tool/version table, representative prompts and outputs, a work-product index, and a verification statement. It contains no repository sharing links, no institution name and no unfinished-review language.
-- COMAP live instructions were not re-consulted for this local qualifier; the school's own notice governs submission mechanics and file naming.
-
-## Git
-
-- The revision is committed on a local branch; no public branch or PR was created, because the timing of releasing an improved solution during the qualification round is the team's decision.
-- Push and PR remain with the team after they review the diff and the final PDF.
+| 核验项 | 本版结果 |
+|---|---|
+| 文件指纹 | 691,516 字节。SHA-256：4869e019eab9deb16ec93c00925a9aa512e329ed24229145666635887a37eedc |
+| 匿名格式 | 2026 ICM D；队号占位符 TEAM REQUIRED；无学校封面。第 1 页摘要，第 2 页目录，第 3 页执行摘要，第 22 页单页备忘录，第 23 页参考文献，第 24–25 页 AI 报告。 |
+| 页面与内容 | 23 页正文＋2 页 AI；全部 A4。用 Poppler 渲染 25 页核看，正文有 9 图、9 表；从最终 PDF 正文核对文内引证与 18 项参考文献。 |
+| 输入 | 120 个区块、248 段道路；四个原始附件 SHA-256 与 results/task1_data_audit.json 对应。北镇 cable 块三段道路共 3.40 英里，≤ −110 dBm 为 0 英里。 |
+| 部署与资格 | 17 项部署复核。按块资格、25% 底线、1,100 万美元下，直接部署 4,213 户，PPP 4,765 户；北部全核验且 50% 底线下，直接部署 5,311 户，PPP 5,750 户，招标不可行。 |
+| 采购与财政 | 40 项采购结果与独立计算一致，8 行租金现值核对通过。高维护情景为 150%，三种机制分别为 4,114、3,466、4,609 户。七份租约覆盖枢纽维护现值的 86.43%、枢纽建设及维护合计现值的 11.51%。 |
+| 决策敏感性 | 支线附加 0/1/2/3 英里时，PPP 为 4,765/4,553/4,419/4,123 户，与合作社相比为 +552/+340/+206/−90。此处里程为情景假设。全核验后北镇 +1,464，其他镇合计 −479，全县 +985。 |
+| 居民实际使用 | 模型衡量新增可订购机会。县内真实可订、运营商报价、采用率、实际使用效果及路线均需另行取证。 |
+| 交付范围 | 本地匿名修订稿；团队可按 README 使用原始附件复算。AI 附录说明计算、审查、编辑及代表性请求输出，人工签认与赛方接收状态由参赛队伍确认。 |

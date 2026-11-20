@@ -518,6 +518,219 @@ no-equity,block,county PPP,River Bend,420010000115,F,170,122665,179928,46461,Riv
 no-equity,block,county PPP,River Bend,420010000116,F,50,43761,57330,15522,River Bend,national cable operator
 no-equity,block,county PPP,River Bend,420010000117,W,113,18150,80256,29380,River Bend,fixed wireless entrant
 no-equity,block,county PPP,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
+lateral-plus-1mi,block,county PPP,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+lateral-plus-1mi,block,county PPP,North Ridge,420010000011,W,12,14520,34200,14546,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,North Ridge,420010000015,F,126,94618,111132,31592,,national cable operator
+lateral-plus-1mi,block,county PPP,East Corridor,420010000022,W,85,61380,73280,40204,,regional cooperative
+lateral-plus-1mi,block,county PPP,East Corridor,420010000024,W,91,33660,72352,31651,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,East Corridor,420010000027,W,103,40384,75696,34657,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,East Corridor,420010000028,W,34,37125,46360,24925,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,East Corridor,420010000032,W,132,63525,93600,46911,,regional cooperative
+lateral-plus-1mi,block,county PPP,East Corridor,420010000034,F,173,137196,167845,46837,,national cable operator
+lateral-plus-1mi,block,county PPP,East Corridor,420010000035,W,121,23141,83904,31959,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,East Corridor,420010000036,W,92,43065,72808,34595,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,South Hollow,420010000047,W,84,30690,69160,29811,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,South Hollow,420010000050,W,58,27720,57304,25385,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,South Hollow,420010000054,W,32,34320,47576,24451,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,West Plains,420010000062,W,57,24640,61104,25599,West Plains,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,West Plains,420010000063,F,168,218803,192629,63173,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000064,F,63,100024,72236,26449,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000067,F,165,206300,174636,58490,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000068,W,36,26180,51528,23200,West Plains,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,West Plains,420010000071,F,168,117765,207446,49934,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000073,F,123,83635,130183,32830,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000076,F,151,214748,186455,61602,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000077,F,182,128241,192629,49268,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,West Plains,420010000078,W,120,31680,85576,35008,West Plains,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,West Plains,420010000080,F,87,152402,107428,39895,West Plains,national cable operator
+lateral-plus-1mi,block,county PPP,Central Town,420010000083,W,34,9900,42104,15526,,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,Central Town,420010000084,F,219,76877,193158,41462,,national cable operator
+lateral-plus-1mi,block,county PPP,Central Town,420010000085,F,161,100531,142002,37239,,national cable operator
+lateral-plus-1mi,block,county PPP,Central Town,420010000086,F,180,100531,158760,39812,,national cable operator
+lateral-plus-1mi,block,county PPP,Central Town,420010000088,F,213,91661,187866,42920,,national cable operator
+lateral-plus-1mi,block,county PPP,River Bend,420010000101,F,202,223027,213797,67072,River Bend,national cable operator
+lateral-plus-1mi,block,county PPP,River Bend,420010000102,F,35,94787,37044,20242,River Bend,national cable operator
+lateral-plus-1mi,block,county PPP,River Bend,420010000103,F,139,73498,134858,31992,River Bend,national cable operator
+lateral-plus-1mi,block,county PPP,River Bend,420010000109,W,51,22385,51984,22203,River Bend,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,River Bend,420010000110,W,153,29645,98496,38257,River Bend,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,River Bend,420010000111,W,50,27170,55784,24767,River Bend,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,River Bend,420010000114,W,58,22880,59432,24575,River Bend,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,River Bend,420010000115,F,170,178422,179928,55022,River Bend,national cable operator
+lateral-plus-1mi,block,county PPP,River Bend,420010000116,F,50,106276,57330,25121,River Bend,national cable operator
+lateral-plus-1mi,block,county PPP,River Bend,420010000117,W,113,24200,80256,31186,River Bend,fixed wireless entrant
+lateral-plus-1mi,block,county PPP,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
+lateral-plus-2mi,block,county PPP,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+lateral-plus-2mi,block,county PPP,North Ridge,420010000011,W,12,14520,34200,14546,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,North Ridge,420010000015,F,126,94618,111132,31592,,national cable operator
+lateral-plus-2mi,block,county PPP,East Corridor,420010000022,W,85,61380,73280,40204,,regional cooperative
+lateral-plus-2mi,block,county PPP,East Corridor,420010000024,W,91,33660,72352,31651,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,East Corridor,420010000027,W,103,40384,75696,34657,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,East Corridor,420010000028,W,34,37125,46360,24925,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,East Corridor,420010000032,W,132,63525,93600,46911,,regional cooperative
+lateral-plus-2mi,block,county PPP,East Corridor,420010000034,F,173,137196,167845,46837,,national cable operator
+lateral-plus-2mi,block,county PPP,East Corridor,420010000035,F,162,174924,157172,50991,,national cable operator
+lateral-plus-2mi,block,county PPP,East Corridor,420010000036,W,92,43065,72808,34595,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,South Hollow,420010000047,W,84,30690,69160,29811,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,South Hollow,420010000050,W,58,27720,57304,25385,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,South Hollow,420010000053,W,16,38610,38152,22918,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,South Hollow,420010000054,W,32,34320,47576,24451,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,West Plains,420010000062,W,57,32340,61104,27898,West Plains,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,West Plains,420010000063,F,168,281318,214032,76058,West Plains,regional cooperative
+lateral-plus-2mi,block,county PPP,West Plains,420010000064,W,39,18590,50768,20707,West Plains,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,West Plains,420010000067,W,115,31020,83296,34130,West Plains,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,West Plains,420010000068,W,36,33880,51528,25499,West Plains,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,West Plains,420010000071,F,168,187039,207446,60571,West Plains,national cable operator
+lateral-plus-2mi,block,county PPP,West Plains,420010000073,F,123,139392,130183,41392,West Plains,national cable operator
+lateral-plus-2mi,block,county PPP,West Plains,420010000076,F,151,284022,207172,75420,West Plains,regional cooperative
+lateral-plus-2mi,block,county PPP,West Plains,420010000077,F,182,183998,192629,57829,West Plains,national cable operator
+lateral-plus-2mi,block,county PPP,West Plains,420010000078,W,120,38280,90080,38323,West Plains,regional cooperative
+lateral-plus-2mi,block,county PPP,West Plains,420010000079,W,14,52195,41440,27955,,regional cooperative
+lateral-plus-2mi,block,county PPP,West Plains,420010000080,W,47,24640,56544,24238,West Plains,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,Central Town,420010000083,W,34,9900,42104,15526,,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,Central Town,420010000084,F,219,76877,193158,41462,,national cable operator
+lateral-plus-2mi,block,county PPP,Central Town,420010000085,F,161,100531,142002,37239,,national cable operator
+lateral-plus-2mi,block,county PPP,Central Town,420010000086,F,180,100531,158760,39812,,national cable operator
+lateral-plus-2mi,block,county PPP,Central Town,420010000088,F,213,91661,187866,42920,,national cable operator
+lateral-plus-2mi,block,county PPP,River Bend,420010000101,W,141,33000,95152,38261,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000102,W,24,17820,41800,17800,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000103,F,139,122496,134858,39515,River Bend,national cable operator
+lateral-plus-2mi,block,county PPP,River Bend,420010000109,W,51,28435,51984,24010,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000110,W,153,35695,103680,41611,River Bend,regional cooperative
+lateral-plus-2mi,block,county PPP,River Bend,420010000111,W,50,34320,55784,26901,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000114,W,58,30030,59432,26710,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000115,F,170,234179,199920,66653,River Bend,regional cooperative
+lateral-plus-2mi,block,county PPP,River Bend,420010000116,W,31,19305,47120,19832,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000117,W,113,30250,80256,32992,River Bend,fixed wireless entrant
+lateral-plus-2mi,block,county PPP,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
+lateral-plus-3mi,block,county PPP,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+lateral-plus-3mi,block,county PPP,North Ridge,420010000011,F,16,109756,15523,19236,,national cable operator
+lateral-plus-3mi,block,county PPP,North Ridge,420010000015,F,126,94618,111132,31592,,national cable operator
+lateral-plus-3mi,block,county PPP,East Corridor,420010000022,W,85,61380,73280,40204,,regional cooperative
+lateral-plus-3mi,block,county PPP,East Corridor,420010000024,W,91,33660,72352,31651,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,East Corridor,420010000027,W,103,40384,75696,34657,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,East Corridor,420010000028,W,34,37125,46360,24925,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,East Corridor,420010000032,W,132,63525,93600,46911,,regional cooperative
+lateral-plus-3mi,block,county PPP,East Corridor,420010000034,F,173,137196,167845,46837,,national cable operator
+lateral-plus-3mi,block,county PPP,East Corridor,420010000035,F,162,174924,157172,50991,,national cable operator
+lateral-plus-3mi,block,county PPP,East Corridor,420010000036,W,92,43065,72808,34595,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,South Hollow,420010000047,W,84,30690,69160,29811,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,South Hollow,420010000050,W,58,27720,57304,25385,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,South Hollow,420010000053,W,16,38610,38152,22918,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,South Hollow,420010000054,W,32,34320,47576,24451,,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,West Plains,420010000062,W,57,40040,64320,31157,West Plains,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000063,F,168,343834,214032,85657,West Plains,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000064,W,39,25740,50768,22842,West Plains,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,West Plains,420010000067,F,165,317814,194040,78592,West Plains,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000068,W,36,41580,54240,28608,West Plains,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000071,F,168,256312,207446,71207,West Plains,national cable operator
+lateral-plus-3mi,block,county PPP,West Plains,420010000073,F,123,195149,130183,49953,West Plains,national cable operator
+lateral-plus-3mi,block,county PPP,West Plains,420010000076,F,151,353295,207172,86056,West Plains,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000077,F,182,239754,214032,69676,West Plains,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000079,W,14,52195,41440,27955,,regional cooperative
+lateral-plus-3mi,block,county PPP,West Plains,420010000080,W,47,32340,56544,26537,West Plains,fixed wireless entrant
+lateral-plus-3mi,block,county PPP,Central Town,420010000083,F,43,70963,37926,16719,,national cable operator
+lateral-plus-3mi,block,county PPP,Central Town,420010000084,F,219,76877,193158,41462,,national cable operator
+lateral-plus-3mi,block,county PPP,Central Town,420010000085,F,161,100531,142002,37239,,national cable operator
+lateral-plus-3mi,block,county PPP,Central Town,420010000086,F,180,100531,158760,39812,,national cable operator
+lateral-plus-3mi,block,county PPP,Central Town,420010000088,F,213,91661,187866,42920,,national cable operator
+lateral-plus-3mi,block,county PPP,River Bend,420010000101,W,141,52800,100160,45667,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000102,W,24,67980,44000,33432,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000103,W,104,63525,80160,42898,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000109,W,51,76835,54720,39277,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000111,W,50,91520,58720,44855,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000114,W,58,62920,62560,37463,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000115,W,119,80520,89600,50791,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000116,W,31,73645,49600,36796,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000117,W,113,78650,84480,48704,,regional cooperative
+lateral-plus-3mi,block,county PPP,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
+wireless-minus10pp,block,cooperative,North Ridge,420010000008,F,85,53898,91630,22345,,regional cooperative
+wireless-minus10pp,block,cooperative,North Ridge,420010000015,F,126,135168,123480,39714,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000022,W,73,61380,67520,38484,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000024,F,131,379146,154056,81870,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000027,W,89,53845,72960,37859,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000028,W,29,49500,46400,28632,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000032,W,115,63525,85440,44475,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000034,F,173,195994,186494,58729,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000035,F,162,249892,174636,65184,,regional cooperative
+wireless-minus10pp,block,cooperative,East Corridor,420010000036,W,79,57420,70400,38162,,regional cooperative
+wireless-minus10pp,block,cooperative,South Hollow,420010000047,F,121,345692,142296,74927,,regional cooperative
+wireless-minus10pp,block,cooperative,South Hollow,420010000048,W,60,90420,61280,45291,,regional cooperative
+wireless-minus10pp,block,cooperative,South Hollow,420010000050,W,50,36960,56480,27897,,regional cooperative
+wireless-minus10pp,block,cooperative,South Hollow,420010000053,W,14,51480,39200,27073,,regional cooperative
+wireless-minus10pp,block,cooperative,South Hollow,420010000054,W,27,45760,47680,27897,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000062,W,46,100100,59040,47512,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000063,W,87,90805,76480,49944,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000064,W,32,104390,50080,46118,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000067,W,99,111540,80000,57186,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000068,W,30,98560,51360,44760,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000071,W,75,114730,72960,56036,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000073,W,73,97020,67520,49125,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000076,W,67,125510,69120,58108,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000077,W,109,91740,84800,52707,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000078,W,103,118800,81920,59926,,regional cooperative
+wireless-minus10pp,block,cooperative,West Plains,420010000080,W,39,118580,55680,52027,,regional cooperative
+wireless-minus10pp,block,cooperative,Central Town,420010000083,F,43,101376,42140,22036,,regional cooperative
+wireless-minus10pp,block,cooperative,Central Town,420010000084,F,219,109824,214620,49816,,regional cooperative
+wireless-minus10pp,block,cooperative,Central Town,420010000085,F,161,143616,157780,46277,,regional cooperative
+wireless-minus10pp,block,cooperative,Central Town,420010000086,F,180,143616,176400,49136,,regional cooperative
+wireless-minus10pp,block,cooperative,Central Town,420010000088,F,213,130944,208740,52156,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000101,F,202,446054,237552,104963,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000102,W,21,67980,42560,33003,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000103,W,90,63525,73440,40892,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000109,W,44,76835,51360,38274,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000110,W,132,84095,93600,53052,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000111,W,42,91520,54880,43709,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000114,W,48,62920,57760,36030,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000115,W,102,80520,81440,48354,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000116,W,26,73645,47200,36079,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000117,W,98,78650,77280,46554,,regional cooperative
+wireless-minus10pp,block,cooperative,River Bend,420010000119,F,177,225393,190806,63905,,regional cooperative
+wireless-plus10pp,block,cooperative,North Ridge,420010000008,F,85,53898,91630,22345,,regional cooperative
+wireless-plus10pp,block,cooperative,North Ridge,420010000011,W,13,19360,36480,16671,,regional cooperative
+wireless-plus10pp,block,cooperative,North Ridge,420010000015,F,126,135168,123480,39714,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000022,W,97,61380,79040,41923,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000024,W,104,44880,82400,38000,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000027,W,117,53845,86400,41871,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000028,W,39,49500,51200,30065,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000032,W,150,63525,102240,49490,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000034,F,173,195994,186494,58729,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000035,F,162,249892,174636,65184,,regional cooperative
+wireless-plus10pp,block,cooperative,East Corridor,420010000036,W,105,57420,82880,41888,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000045,W,10,60775,39520,29944,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000047,W,96,40920,78560,35672,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000048,W,80,90420,70880,48157,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000050,W,67,36960,64640,30333,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000053,W,19,51480,41600,27790,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000054,W,37,45760,52480,29330,,regional cooperative
+wireless-plus10pp,block,cooperative,South Hollow,420010000058,W,13,80080,40960,36137,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000062,W,67,100100,69120,50522,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000063,W,120,90805,92320,54673,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000064,W,45,104390,56320,47981,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000067,W,132,111540,95840,61915,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000068,W,43,98560,57600,46623,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000071,W,109,114730,89280,60909,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000073,W,98,97020,79520,52707,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000076,W,98,125510,84000,62551,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000077,W,145,91740,102080,57866,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000078,W,137,118800,98240,64799,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000079,W,17,52195,42880,28385,,regional cooperative
+wireless-plus10pp,block,cooperative,West Plains,420010000080,W,56,118580,63840,54463,,regional cooperative
+wireless-plus10pp,block,cooperative,Central Town,420010000083,W,38,13200,46240,17746,,regional cooperative
+wireless-plus10pp,block,cooperative,Central Town,420010000084,F,219,109824,214620,49816,,regional cooperative
+wireless-plus10pp,block,cooperative,Central Town,420010000085,F,161,143616,157780,46277,,regional cooperative
+wireless-plus10pp,block,cooperative,Central Town,420010000086,F,180,143616,176400,49136,,regional cooperative
+wireless-plus10pp,block,cooperative,Central Town,420010000088,F,213,130944,208740,52156,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000101,F,202,446054,237552,104963,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000102,W,28,67980,45920,34006,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000103,W,118,63525,86880,44904,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000109,W,58,76835,58080,40280,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000110,W,173,84095,113280,58928,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000111,W,59,91520,63040,46145,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000114,W,67,62920,66880,38753,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000115,W,136,80520,97760,53227,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000116,W,36,73645,52000,37512,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000117,W,128,78650,91680,50853,,regional cooperative
+wireless-plus10pp,block,cooperative,River Bend,420010000119,F,177,225393,190806,63905,,regional cooperative
 budget-9m,block,cooperative,North Ridge,420010000008,F,85,53898,91630,22345,,regional cooperative
 budget-9m,block,cooperative,North Ridge,420010000015,F,126,135168,123480,39714,,regional cooperative
 budget-9m,block,cooperative,East Corridor,420010000022,W,85,61380,73280,40204,,regional cooperative
@@ -749,6 +962,76 @@ verified-50pct,verified,cooperative,River Bend,420010000115,W,119,80520,89600,50
 verified-50pct,verified,cooperative,River Bend,420010000116,W,31,73645,49600,36796,,regional cooperative
 verified-50pct,verified,cooperative,River Bend,420010000117,W,113,78650,84480,48704,,regional cooperative
 verified-50pct,verified,cooperative,River Bend,420010000119,W,132,27830,93600,36254,,regional cooperative
+wireless-minus10pp,block,competitive,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+wireless-minus10pp,block,competitive,North Ridge,420010000011,W,10,14520,33288,14273,,fixed wireless entrant
+wireless-minus10pp,block,competitive,North Ridge,420010000015,F,126,94618,111132,31592,,national cable operator
+wireless-minus10pp,block,competitive,East Corridor,420010000022,W,73,61380,67520,38484,,regional cooperative
+wireless-minus10pp,block,competitive,East Corridor,420010000024,F,131,379146,154056,81870,,regional cooperative
+wireless-minus10pp,block,competitive,East Corridor,420010000027,F,138,436086,148764,89800,,regional cooperative
+wireless-minus10pp,block,competitive,East Corridor,420010000028,W,29,37125,44080,24244,,fixed wireless entrant
+wireless-minus10pp,block,competitive,East Corridor,420010000032,F,177,514483,190806,108293,,regional cooperative
+wireless-minus10pp,block,competitive,East Corridor,420010000034,F,173,137196,167845,46837,,national cable operator
+wireless-minus10pp,block,competitive,East Corridor,420010000035,F,162,174924,157172,50991,,national cable operator
+wireless-minus10pp,block,competitive,East Corridor,420010000036,W,79,43065,66880,32825,,fixed wireless entrant
+wireless-minus10pp,block,competitive,South Hollow,420010000047,F,121,345692,142296,74927,,regional cooperative
+wireless-minus10pp,block,competitive,South Hollow,420010000050,F,84,218567,88906,47211,,national cable operator
+wireless-minus10pp,block,competitive,South Hollow,420010000053,W,14,38610,37240,22646,,fixed wireless entrant
+wireless-minus10pp,block,competitive,South Hollow,420010000054,W,27,34320,45296,23770,,fixed wireless entrant
+wireless-minus10pp,block,competitive,West Plains,420010000062,W,46,100100,59040,47512,,regional cooperative
+wireless-minus10pp,block,competitive,West Plains,420010000063,F,168,793943,214032,154768,,regional cooperative
+wireless-minus10pp,block,competitive,West Plains,420010000068,W,30,98560,51360,44760,,regional cooperative
+wireless-minus10pp,block,competitive,West Plains,420010000079,W,12,52195,40480,27669,,regional cooperative
+wireless-minus10pp,block,competitive,Central Town,420010000083,F,43,70963,37926,16719,,national cable operator
+wireless-minus10pp,block,competitive,Central Town,420010000084,F,219,76877,193158,41462,,national cable operator
+wireless-minus10pp,block,competitive,Central Town,420010000085,F,161,100531,142002,37239,,national cable operator
+wireless-minus10pp,block,competitive,Central Town,420010000086,F,180,100531,158760,39812,,national cable operator
+wireless-minus10pp,block,competitive,Central Town,420010000088,F,213,91661,187866,42920,,national cable operator
+wireless-minus10pp,block,competitive,River Bend,420010000101,F,202,446054,237552,104963,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000102,W,21,67980,42560,33003,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000103,F,139,514483,149842,102003,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000109,W,44,76835,51360,38274,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000111,W,42,91520,54880,43709,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000114,W,48,62920,57760,36030,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000115,W,102,80520,81440,48354,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000116,W,26,73645,47200,36079,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000117,W,98,78650,77280,46554,,regional cooperative
+wireless-minus10pp,block,competitive,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
+wireless-plus10pp,block,competitive,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+wireless-plus10pp,block,competitive,North Ridge,420010000011,F,16,109756,15523,19236,,national cable operator
+wireless-plus10pp,block,competitive,North Ridge,420010000015,F,126,94618,111132,31592,,national cable operator
+wireless-plus10pp,block,competitive,East Corridor,420010000022,W,97,61380,79040,41923,,regional cooperative
+wireless-plus10pp,block,competitive,East Corridor,420010000024,F,131,379146,154056,81870,,regional cooperative
+wireless-plus10pp,block,competitive,East Corridor,420010000027,W,117,40384,82080,36562,,fixed wireless entrant
+wireless-plus10pp,block,competitive,East Corridor,420010000028,W,39,37125,48640,25606,,fixed wireless entrant
+wireless-plus10pp,block,competitive,East Corridor,420010000032,F,177,514483,190806,108293,,regional cooperative
+wireless-plus10pp,block,competitive,East Corridor,420010000034,F,173,137196,167845,46837,,national cable operator
+wireless-plus10pp,block,competitive,East Corridor,420010000035,F,162,174924,157172,50991,,national cable operator
+wireless-plus10pp,block,competitive,East Corridor,420010000036,F,132,485084,155232,98316,,regional cooperative
+wireless-plus10pp,block,competitive,South Hollow,420010000045,W,10,45581,37544,24818,,fixed wireless entrant
+wireless-plus10pp,block,competitive,South Hollow,420010000047,F,121,345692,142296,74927,,regional cooperative
+wireless-plus10pp,block,competitive,South Hollow,420010000050,F,84,218567,88906,47211,,national cable operator
+wireless-plus10pp,block,competitive,South Hollow,420010000053,W,19,38610,39520,23326,,fixed wireless entrant
+wireless-plus10pp,block,competitive,South Hollow,420010000054,W,37,34320,49856,25131,,fixed wireless entrant
+wireless-plus10pp,block,competitive,South Hollow,420010000058,W,13,80080,40960,36137,,regional cooperative
+wireless-plus10pp,block,competitive,West Plains,420010000062,W,67,100100,69120,50522,,regional cooperative
+wireless-plus10pp,block,competitive,West Plains,420010000063,F,168,793943,214032,154768,,regional cooperative
+wireless-plus10pp,block,competitive,West Plains,420010000068,W,43,98560,57600,46623,,regional cooperative
+wireless-plus10pp,block,competitive,West Plains,420010000079,W,17,52195,42880,28385,,regional cooperative
+wireless-plus10pp,block,competitive,Central Town,420010000083,F,43,70963,37926,16719,,national cable operator
+wireless-plus10pp,block,competitive,Central Town,420010000084,F,219,76877,193158,41462,,national cable operator
+wireless-plus10pp,block,competitive,Central Town,420010000085,F,161,100531,142002,37239,,national cable operator
+wireless-plus10pp,block,competitive,Central Town,420010000086,F,180,100531,158760,39812,,national cable operator
+wireless-plus10pp,block,competitive,Central Town,420010000088,F,213,91661,187866,42920,,national cable operator
+wireless-plus10pp,block,competitive,River Bend,420010000101,F,202,446054,237552,104963,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000102,W,28,67980,45920,34006,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000103,W,118,63525,86880,44904,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000109,W,58,76835,58080,40280,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000111,W,59,91520,63040,46145,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000114,W,67,62920,66880,38753,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000115,W,136,80520,97760,53227,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000116,W,36,73645,52000,37512,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000117,W,128,78650,91680,50853,,regional cooperative
+wireless-plus10pp,block,competitive,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
 budget-9m,block,competitive,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
 budget-9m,block,competitive,North Ridge,420010000011,W,12,14520,34200,14546,,fixed wireless entrant
 budget-9m,block,competitive,North Ridge,420010000015,F,126,94618,111132,31592,,national cable operator
@@ -889,6 +1172,90 @@ high-maintenance,block,competitive,River Bend,420010000115,W,119,80520,89600,761
 high-maintenance,block,competitive,River Bend,420010000116,W,31,73645,49600,55194,,regional cooperative
 high-maintenance,block,competitive,River Bend,420010000117,W,113,78650,84480,73056,,regional cooperative
 high-maintenance,block,competitive,River Bend,420010000119,F,177,157775,171725,75890,,national cable operator
+wireless-minus10pp,block,county PPP,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+wireless-minus10pp,block,county PPP,North Ridge,420010000015,W,88,13200,66728,23863,,fixed wireless entrant
+wireless-minus10pp,block,county PPP,East Corridor,420010000022,F,122,94787,129125,34380,East Corridor,national cable operator
+wireless-minus10pp,block,county PPP,East Corridor,420010000024,F,131,100362,138650,36699,East Corridor,national cable operator
+wireless-minus10pp,block,county PPP,East Corridor,420010000027,F,138,63698,133888,30338,East Corridor,national cable operator
+wireless-minus10pp,block,county PPP,East Corridor,420010000028,F,49,61332,51862,17380,East Corridor,national cable operator
+wireless-minus10pp,block,county PPP,East Corridor,420010000032,F,177,142095,171725,48185,East Corridor,national cable operator
+wireless-minus10pp,block,county PPP,East Corridor,420010000034,F,173,137196,167845,46837,,national cable operator
+wireless-minus10pp,block,county PPP,East Corridor,420010000035,W,105,21175,76608,29194,East Corridor,fixed wireless entrant
+wireless-minus10pp,block,county PPP,East Corridor,420010000036,F,132,61332,139709,30869,East Corridor,national cable operator
+wireless-minus10pp,block,county PPP,South Hollow,420010000047,W,72,30690,63688,28177,,fixed wireless entrant
+wireless-minus10pp,block,county PPP,South Hollow,420010000050,W,50,27720,53656,24295,,fixed wireless entrant
+wireless-minus10pp,block,county PPP,South Hollow,420010000054,W,27,34320,45296,23770,,fixed wireless entrant
+wireless-minus10pp,block,county PPP,West Plains,420010000062,F,104,152402,128419,43118,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000063,F,168,156288,192629,53574,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000064,F,63,37509,72236,16851,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000067,F,165,150543,174636,49929,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000068,W,30,18480,48792,20085,West Plains,fixed wireless entrant
+wireless-minus10pp,block,county PPP,West Plains,420010000071,F,168,48492,207446,39298,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000073,F,123,27878,130183,24269,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000076,F,151,145475,186455,50966,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000077,F,182,72484,192629,40706,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,West Plains,420010000078,W,103,25080,77824,30723,West Plains,fixed wireless entrant
+wireless-minus10pp,block,county PPP,West Plains,420010000080,F,87,83128,107428,29259,West Plains,national cable operator
+wireless-minus10pp,block,county PPP,Central Town,420010000083,F,43,50688,37926,13606,Central Town,national cable operator
+wireless-minus10pp,block,county PPP,Central Town,420010000084,F,219,42240,193158,36144,Central Town,national cable operator
+wireless-minus10pp,block,county PPP,Central Town,420010000085,F,161,33792,142002,26992,Central Town,national cable operator
+wireless-minus10pp,block,county PPP,Central Town,420010000086,F,180,33792,158760,29565,Central Town,national cable operator
+wireless-minus10pp,block,county PPP,Central Town,420010000088,F,213,21120,187866,32088,Central Town,national cable operator
+wireless-minus10pp,block,county PPP,River Bend,420010000101,F,202,167270,213797,58510,River Bend,national cable operator
+wireless-minus10pp,block,county PPP,River Bend,420010000102,F,35,39030,37044,11681,River Bend,national cable operator
+wireless-minus10pp,block,county PPP,River Bend,420010000103,F,139,24499,134858,24468,River Bend,national cable operator
+wireless-minus10pp,block,county PPP,River Bend,420010000109,W,44,16335,48792,19444,River Bend,fixed wireless entrant
+wireless-minus10pp,block,county PPP,River Bend,420010000110,W,132,23595,88920,33592,River Bend,fixed wireless entrant
+wireless-minus10pp,block,county PPP,River Bend,420010000111,W,42,20020,52136,21543,River Bend,fixed wireless entrant
+wireless-minus10pp,block,county PPP,River Bend,420010000114,W,48,15730,54872,21079,River Bend,fixed wireless entrant
+wireless-minus10pp,block,county PPP,River Bend,420010000115,F,170,122665,179928,46461,River Bend,national cable operator
+wireless-minus10pp,block,county PPP,River Bend,420010000116,F,50,43761,57330,15522,River Bend,national cable operator
+wireless-minus10pp,block,county PPP,River Bend,420010000117,W,98,18150,73416,27338,River Bend,fixed wireless entrant
+wireless-minus10pp,block,county PPP,River Bend,420010000119,F,177,157775,171725,50593,,national cable operator
+wireless-plus10pp,block,county PPP,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
+wireless-plus10pp,block,county PPP,North Ridge,420010000011,W,13,14520,34656,14682,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,North Ridge,420010000015,W,113,13200,78128,27267,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,East Corridor,420010000022,F,122,94787,129125,34380,East Corridor,national cable operator
+wireless-plus10pp,block,county PPP,East Corridor,420010000024,F,131,100362,138650,36699,East Corridor,national cable operator
+wireless-plus10pp,block,county PPP,East Corridor,420010000027,F,138,63698,133888,30338,East Corridor,national cable operator
+wireless-plus10pp,block,county PPP,East Corridor,420010000028,W,39,7260,48640,16689,East Corridor,fixed wireless entrant
+wireless-plus10pp,block,county PPP,East Corridor,420010000032,W,150,17545,97128,34236,East Corridor,fixed wireless entrant
+wireless-plus10pp,block,county PPP,East Corridor,420010000034,W,147,18150,95760,34009,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,East Corridor,420010000035,W,137,21175,91200,33550,East Corridor,fixed wireless entrant
+wireless-plus10pp,block,county PPP,East Corridor,420010000036,F,132,61332,139709,30869,East Corridor,national cable operator
+wireless-plus10pp,block,county PPP,South Hollow,420010000047,W,96,30690,74632,31445,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,South Hollow,420010000050,W,67,27720,61408,26610,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,South Hollow,420010000053,W,19,38610,39520,23326,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,South Hollow,420010000054,W,37,34320,49856,25131,,fixed wireless entrant
+wireless-plus10pp,block,county PPP,West Plains,420010000062,F,104,152402,128419,43118,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000063,F,168,156288,192629,53574,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000064,F,63,37509,72236,16851,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000067,F,165,150543,174636,49929,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000068,W,43,18480,54720,21854,West Plains,fixed wireless entrant
+wireless-plus10pp,block,county PPP,West Plains,420010000071,F,168,48492,207446,39298,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000072,W,16,24640,42408,20018,West Plains,fixed wireless entrant
+wireless-plus10pp,block,county PPP,West Plains,420010000073,F,123,27878,130183,24269,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000076,F,151,145475,186455,50966,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000077,F,182,72484,192629,40706,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,West Plains,420010000078,W,137,25080,93328,35352,West Plains,fixed wireless entrant
+wireless-plus10pp,block,county PPP,West Plains,420010000079,W,17,52195,42880,28385,,regional cooperative
+wireless-plus10pp,block,county PPP,West Plains,420010000080,F,87,83128,107428,29259,West Plains,national cable operator
+wireless-plus10pp,block,county PPP,Central Town,420010000083,W,38,6600,43928,15085,Central Town,fixed wireless entrant
+wireless-plus10pp,block,county PPP,Central Town,420010000084,F,219,42240,193158,36144,Central Town,national cable operator
+wireless-plus10pp,block,county PPP,Central Town,420010000085,F,161,33792,142002,26992,Central Town,national cable operator
+wireless-plus10pp,block,county PPP,Central Town,420010000086,F,180,33792,158760,29565,Central Town,national cable operator
+wireless-plus10pp,block,county PPP,Central Town,420010000088,F,213,21120,187866,32088,Central Town,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000101,F,202,167270,213797,58510,River Bend,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000102,F,35,39030,37044,11681,River Bend,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000103,F,139,24499,134858,24468,River Bend,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000109,W,58,16335,55176,21350,River Bend,fixed wireless entrant
+wireless-plus10pp,block,county PPP,River Bend,420010000110,W,173,23595,107616,39174,River Bend,fixed wireless entrant
+wireless-plus10pp,block,county PPP,River Bend,420010000111,W,59,20020,59888,23857,River Bend,fixed wireless entrant
+wireless-plus10pp,block,county PPP,River Bend,420010000114,F,94,137533,107780,37666,River Bend,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000115,F,170,122665,179928,46461,River Bend,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000116,F,50,43761,57330,15522,River Bend,national cable operator
+wireless-plus10pp,block,county PPP,River Bend,420010000117,W,128,18150,87096,31422,River Bend,fixed wireless entrant
+wireless-plus10pp,block,county PPP,River Bend,420010000119,W,150,27830,102240,38833,,regional cooperative
 budget-9m,block,county PPP,North Ridge,420010000008,F,85,37729,82467,18455,,national cable operator
 budget-9m,block,county PPP,North Ridge,420010000015,W,100,13200,72200,25497,,fixed wireless entrant
 budget-9m,block,county PPP,East Corridor,420010000022,W,85,61380,73280,40204,,regional cooperative

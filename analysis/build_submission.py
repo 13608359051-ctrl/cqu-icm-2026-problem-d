@@ -110,6 +110,9 @@ def validate(cover: Path | None, solution: Path, ai: Path, pdf: Path, team: str)
 
     # AI report follows the solution and is excluded from the page count.
     assert ai_text[0].startswith("Report on Use of AI Tools"), ai_text[0][:80]
+    memo_index, = [i for i, page in enumerate(solution_text)
+                   if "To Hallowell County Board of Commissioners" in page]
+    assert re.search(r"\nReferences\s*\n", raw_texts[offset + memo_index + 1]), "memo must fit on one page"
 
     # Anonymity: no names, institution, student numbers or local paths anywhere.
     body = " ".join(texts[offset:])
@@ -133,14 +136,13 @@ def validate(cover: Path | None, solution: Path, ai: Path, pdf: Path, team: str)
     assert figure_numbers == list(range(1, len(figure_numbers) + 1)), figure_numbers
     assert table_numbers == list(range(1, len(table_numbers) + 1)), table_numbers
 
-    # In-text citations and reference list.
-    citations = {int(x) for value in re.findall(r"\[(\d+(?:, \d+)*)\]", joined)
+    # Compare citations in the actual body, excluding the reference entries themselves.
+    reference_pages = "\n".join(raw_texts[offset + memo_index + 1:offset + n_sol])
+    cited_body = " ".join(solution_text[:memo_index + 1])
+    citations = {int(x) for value in re.findall(r"\[(\d+(?:, \d+)*)\]", cited_body)
                  for x in value.split(", ")}
-    refs = {int(x) for x in re.findall(r"(?m)^\s*\[(\d+)\]", raw_solution)}
-    if not refs:
-        refs = set(range(1, 19))
-    assert citations, "no in-text citations found"
-    assert max(citations) <= max(refs), (max(citations), max(refs))
+    refs = {int(x) for x in re.findall(r"(?m)^\s*\[(\d+)\]", reference_pages)}
+    assert refs and citations == refs, (citations, refs)
 
     size = pdf.stat().st_size
     assert size < MAX_BYTES, f"PDF is {size:,} bytes (limit {MAX_BYTES:,})"

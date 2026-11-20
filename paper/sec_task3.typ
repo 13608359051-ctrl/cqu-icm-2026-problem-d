@@ -5,8 +5,8 @@
 
 == Common comparison
 
-The common objective, 100/20 fixed terrestrial benchmark, 25\% floor, ten-year period, 3\% real
-rate and #value("budget") gross budget are those of Task 2. Gross resource cost is charged to
+We use Task 2's objective and planning assumptions: a 100/20 terrestrial benchmark,
+25\% township floor, ten-year horizon, 3\% real discount rate and #value("budget") gross budget. Gross resource cost is charged to
 the budget before any lease receipts are credited, so a mechanism cannot borrow from future
 rents to fund current construction. Under the original map rule every mechanism is infeasible,
 for the same reason as the direct model. The portfolios below are computed under the same
@@ -21,7 +21,8 @@ observed end of its network. Its result is exactly the direct benchmark.
 cable provider offers fiber within 6 miles in towns with a cable claim; the wireless entrant
 offers fixed wireless within 9 miles in towns with a wireless claim. Cable's capital cost is
 70\% of the direct backhaul and 90\% of the direct last-mile cost; the entrant's is 75\% and
-95\%. Maintenance is recalculated after repricing. No bidder must serve outside its footprint.
+95\%. These radii and discounts are assumptions about voluntary, conforming offers.
+The data do not identify actual bidders or their footprints. Maintenance follows repriced capital.
 Among identical service bundles the lowest life-cycle bid per household, $c_a / h_a$, is kept.
 At the same maximum coverage, minimizing total cost also minimizes $C/G$, but greedily ranking
 individual bids could miss the floor, so the bid menu is optimized jointly. #cite("15")
@@ -55,9 +56,7 @@ Table 7 compares the mechanisms under the common budget, period and floor. The c
 partnership reaches #value("ppp_hh") new household opportunities, #value("advantage") more than
 the cooperative award (#value("coop_hh"), a 13.1\% gain) and #value("tender_gap") more than the
 competitive tender (#value("tender_hh"), a 35.3\% gain). The cooperative delivers a slightly
-higher minimum township rate (#value("coop_min") versus #value("ppp_min")), because dividing
-the same budget among more projects concentrates the partnership's coverage in places where
-marginal households are cheaper.
+higher minimum township rate (#value("coop_min") versus #value("ppp_min")), while the partnership offers more countywide coverage. Both minima exceed 25\%.
 
 #tabblock(7, [Matched block-reform results at the common budget, ten-year period and 25\% floor.
 USD/HH is gross life-cycle cost per new qualifying household opportunity.], (1.74fr, .76fr, .95fr, 1fr, .82fr, .72fr), ([Mechanism], [New HH], [Gross PV], [USD / HH], [Min. \%], [F / W]), rows("mechanisms"))
@@ -65,20 +64,20 @@ USD/HH is gross life-cycle cost per new qualifying household opportunity.], (1.7
 #fig(cost-fig, 7)[Life-cycle cost structure of the three mechanisms, in million 2026 U.S. dollars.
 The diamond marks the county net outlay after modeled lease receipts for the partnership.]
 
-The county partnership first leads on cost per household: \$2,306 per opportunity versus
+In the base comparison the partnership has the lowest gross cost per new opportunity: \$2,306 per opportunity versus
 \$2,606 for the cooperative and \$3,123 for the tender. Its four hubs open in East Corridor,
 West Plains, Central Town and River Bend. County hub capital is #value("ppp_capex"), and
 discounted county maintenance is #value("ppp_om"). Seven provider-hub leases pay \$33,600 per
-year, or #value("ppp_rent") in present value, which covers #value("om_recovery") of the county's
-discounted hub maintenance. That leaves \$44,981 of discounted operating cost plus the hub
+year, or #value("ppp_rent") in present value, which covers #value("om_recovery") of discounted hub
+maintenance and 11.51\% of hub capital plus discounted maintenance. That leaves \$44,981 of discounted operating cost plus the hub
 capital to fund. With seven leases, the operating break-even fee is about \$5,553 per
-lease-year. The gross plan assumes the grant can finance the full modeled life cycle; if the
+lease-year, covering maintenance only. The gross plan assumes the grant can finance the full modeled life cycle; if the
 leases are realized, county net outlay falls to #value("net_outlay"). Figure 7 shows the cost
 structure and the net-outlay effect.
 
 == Who benefits and who bears the cost
 
-*Residents* gain the most connections under the partnership, but retail prices, installation
+*Residents* gain the most modeled opportunities to order qualifying service under the base partnership, but retail prices, installation
 charges and device needs still determine whether those connections are used; the effective-use
 framework in Section 8 is the check. The *regional cooperative* gains the option to bid for
 last-mile work and to lease county capacity, but it loses the guaranteed award that the sole
@@ -93,9 +92,11 @@ household objective and should be covered by a separate agreement. #cite("1")
 
 == If verified evidence can override provider claims
 
-The verified overlay changes only eligible block membership and the availability of the
-corresponding hub offers. It shifts one hub from East Corridor to North Ridge and raises
-partnership coverage to #value("override_count"). The county partnership still leads the
+Under block eligibility, all 47 originally unserved blocks can proceed without a satellite
+challenge. If the county may override claims and verifies all 13 northern satellite-coded
+blocks, the reoptimized partnership shifts one hub from East Corridor to North Ridge. Its
+northern allocation rises from 211 to 1,675 (+1,464), while the other towns together lose
+479 modeled opportunities. Countywide coverage rises by 985 to #value("override_count"). The county partnership still leads the
 cooperative by 439 households and the tender by 916 (Table 8). If the overlay is paired with a
 50\% floor, the cooperative and the partnership still attain 5,311 and 5,750 opportunities,
 while the tender cannot reach the West Plains floor even before the budget binds (767 modeled
@@ -109,29 +110,40 @@ membership and the corresponding hub offers.], (1.83fr, 1fr, 1.16fr, 1fr, .69fr)
 
 In the base partnership allocation, cable wins projects covering 3,760 households and the
 wireless entrant wins 1,005; the cooperative wins none in this scenario, although it can use
-the same published terms to bid. The incumbent is therefore the largest modeled beneficiary of
-the partnership, which is acceptable only if the lease terms are non-discriminatory and the
-eligibility audit remains an independent county function. Under a sole award the cooperative
+the same published terms to bid. Cable has the largest assigned construction portfolio. These counts measure households offered
+service; margins, signed orders and operator profits are unobserved. Publish common lease
+terms and keep the eligibility audit independent of all bidders. Under a sole award the cooperative
 would take responsibility for all 4,213 households and the cable provider would receive no
 grant. These modeled bidder shares depend on the assumed footprints and relative costs and
 should be reopened when conforming offers and signed commitments arrive.
 
-*Is the ranking robust?* Figure 8 repeats the matched comparison across the tested budget,
-maintenance and verified-coverage scenarios. The partnership leads in every case: at \$9
-million and \$13 million it delivers 4,362 and 5,110 opportunities against 3,991 and 4,365 for
-the cooperative and 3,380 and 3,645 for the tender; under low and high maintenance it delivers
-4,845 and 4,609 against 4,259 and 4,164; and with verified coverage it leads by 439 and 916
-households. The cooperative still leads the tender in every scenario. The only tested case
-where the partnership's lead narrows is the doubled hub-capital rate, where it falls to 4,381
-but still exceeds the cooperative's 4,213. The ranking is therefore stable across the tested
-ranges, although the absolute advantage depends on the assumed bidder cost multipliers, which
-we could not vary without observed bid data.
+*When does the recommendation change?* In Figure 8 the partnership's lead over the cooperative
+falls from #value("advantage") opportunities to 371 at a \$9 million budget and 439 under full
+northern verification. At 150% of base maintenance the cooperative, tender and partnership
+reach 4,114, 3,466 and 4,609, respectively (lead 495). Doubling hub capital cuts the lead to
+168. With fixed-wireless serviceability 10 percentage points below or above base in every
+terrain band, the partnership reaches #rows("wireless_mechanisms").at(0).at(3) or
+#rows("wireless_mechanisms").at(2).at(3), respectively, leading the cooperative by 754 or 366.
 
-#fig(robust-fig, 8)[Mechanism comparison across the tested budget, maintenance and verified-coverage
-scenarios. Bars are new household opportunities under the same budget, period and floor.]
+#fig(robust-fig, 8)[New qualifying opportunities under the three mechanisms. Each group varies
+the indicated input from the base case; high maintenance is 150% of the base rate.]
 
-#answer[The *county backhaul partnership* is the recommended mechanism. It adds #value("ppp_hh")
-opportunities, #value("advantage") more than the next-best cooperative award, at the lowest
-gross cost per household, and its ranking does not change under the verified overlay or across
-the tested hub-cost, budget and maintenance ranges. The cooperative is the fallback if lease
-commitments or route costs defeat the case for a public backbone.]
+For a separate route test, add $delta$ miles to every PPP hub lateral
+$ell_(i j) = abs(d_i - d_j) + 0.5 + delta$, using the longer distance for both spur cost and
+bidder reach. Keep block eligibility, \$11 million, the 25% floor and all direct offers
+fixed. At $delta = 0, 1, 2, 3$ miles the partnership adds #rows("route_stress").at(0).at(1),
+#rows("route_stress").at(1).at(1), #rows("route_stress").at(2).at(1) and
+#rows("route_stress").at(3).at(1)
+opportunities, respectively. The cooperative stays at 4,213 and leads by 90 in the three-mile
+case. Both optimization stages have zero reported gap at each test point. The county has no
+route geometry to estimate a detour or an exact crossover.
+
+The tender depends on which providers voluntarily bid. Under the wider bidding radii its
+coverage rises from #value("tender_hh") to 4,031; the narrow-radii case cannot meet the floor.
+Countywide cooperative capacity in the sole award and assumed equipment discounts are further
+reasons to request actual offers from all three providers before committing.
+
+#answer[Proceed with block reform and prepare the county partnership. Select the feasible
+portfolio with the most qualifying opportunities at the common budget and floor after
+updating routes, bids and lease commitments. The sole cooperative award is the base fallback
+and overtakes the partnership in the three-mile route test.]

@@ -8,7 +8,7 @@
 The primary benefit measure is the number of new qualifying household opportunities created
 by the recommended plan in township $t$, $G_t = sum_(a : i(a) in t) h_a x_a$. The plan is the
 county partnership from Section 7. We also report three checks: the share of each township's
-eligible pool that is connected, the post-plan access rate $(b_t + G_t)/H_t$ on the claim
+eligible pool offered qualifying service, the post-plan access rate $(b_t + G_t)/H_t$ on the claim
 proxy, and the baseline subscription rate. Table 9 reports them; Figure 9 shows the contrast
 between claim-based access and subscriptions.
 
@@ -23,8 +23,8 @@ uses the terrestrial-claim proxy; subscription rate is the observed baseline.], 
 *West Plains* benefits most: it gains 1,367 new qualifying opportunities, which is 91.19\% of
 its 1,499 eligible households, and its post-plan access rate rises to 84.49\%. The pattern
 follows the eligible pool: West Plains, River Bend and East Corridor combine large unserved
-populations with moderate construction costs, while Central Town is fully covered and South
-Hollow is limited by its small remaining pool and its terrain.
+populations with moderate construction costs, while Central Town reaches its full eligible pool and 90.53\% of all township households
+on the post-plan proxy. South Hollow gains 174 opportunities from an eligible pool of 415.
 
 == Does the same township benefit most without the equity constraint?
 
@@ -32,12 +32,10 @@ We reran the partnership model with only the 25\% floor removed, holding the bud
 eligibility and all other constraints constant. The unrestricted optimum selects the same
 four hubs, the same projects and the same providers; the minimum post-plan access rate is
 27.54\%, which is #value("floor_slack") above the floor. *West Plains remains the
-most-benefiting township.* The equality of the two portfolios is a property of a slack
-constraint, not evidence that equity never matters: the coverage objective spends first where
-the marginal cost per household is lowest, and at this budget those projects already lift
-every township above 25\%. At a 50\% floor the block-eligibility plan becomes infeasible, and
+most-benefiting township.* The reported base optimum satisfies the floor with slack. Before deployment North Ridge,
+West Plains and River Bend fell short of that floor. At a 50\% floor the block-eligibility plan becomes infeasible, and
 under the verified overlay the largest beneficiary shifts to North Ridge (1,675
-opportunities), which is exactly what an evidence-based rule change is intended to do.
+opportunities).
 
 == Measurement determines equity
 
@@ -45,12 +43,14 @@ The apparent fairness of the plan depends on which access measure the county use
 Hollow has the lowest subscription rate in the county (21.96\%) and the highest share of
 senior residents, yet its terrestrial-claim proxy is 68.54\%, so on the claim proxy it looks
 better served than North Ridge, West Plains or River Bend. As a result the recommended plan
-connects only 174 of its 415 eligible households (41.93\%), and its post-plan claimed access
+offers qualifying service to 174 of its 415 eligible households (41.93\%), and its post-plan claimed access
 is 78.15\% even though fewer than one household in four subscribes. The post-plan access
 rates across townships still span #value("min_gap") (90.53\% in Central Town against 27.54\% in
 North Ridge), so the 25\% floor guarantees a minimum claimed coverage, not a minimum level of
-actual use. A use-based or subscription-based floor would make South Hollow, not North Ridge,
-the binding township — a change the county can evaluate with the measurement framework below.
+actual use. A 25\% subscription target would require 453 South Hollow households, 55 above the observed
+398. With no churn and all 174 new opportunities offered to current non-subscribers, 55 of
+174 (31.6\%, rounded) would have to subscribe to close the gap through deployment alone.
+Which township limits a use-based plan depends on local adoption, needs and task completion.
 #cite("7", "14")
 
 == From tower availability to usable service
@@ -65,8 +65,8 @@ households can actually use them. #cite("1")
 
 The county should measure three stages with separate denominators.
 
-+ *Orderability and installation.* Sample addresses across served and unserved map categories,
-  tower sectors, terrain and income strata, including non-subscribers. Record the product and
++ *Orderability and installation.* Sample addresses by map status, tower sector and terrain, including non-subscribers.
+  Collect income strata where respondents consent. Record the product and
   full price quoted, the installation decision and time to activate, technician line of sight,
   and the reason for refusals or failed appointments.
 + *Reliable access.* Collect router-based downstream and upstream tests, round-trip latency,
@@ -81,9 +81,9 @@ The county should measure three stages with separate denominators.
   Collect baseline, 30-day and 90-day surveys and brief standardized tasks, and ask about
   cost, devices, skills, accessibility, competing offers and schedules. #cite("17")
 
-The evidence distinguishes the two explanations for low utilization. Low traffic with
+These observations can help distinguish explanations for low utilization. Low traffic with
 installation failures or missing coverage signals a supply barrier. Measured service that meets
-the standard, combined with reported need and few orders, signals price, equipment, activation
+the standard, combined with reported need and few orders, is consistent with price, equipment, activation
 or skills barriers. If use remains low even when an affordable offer, working devices and
 reliable service are in place, limited local demand becomes the more plausible explanation. A
 randomized pilot that offers a bill credit or device-and-installation help to willing eligible
@@ -98,4 +98,4 @@ rather than subscriptions alone. #cite("7")
 portfolio, so the same township still benefits most. To judge whether funded projects serve
 intended users, the county should combine an address-level orderability audit, router-based
 performance testing and a work/school task survey, then use a randomized support pilot to
-separate limited demand from price, device and installation barriers.]
+test whether specified forms of support improve activation or effective use.]

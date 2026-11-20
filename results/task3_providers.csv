@@ -26,11 +26,28 @@ no-equity,block,competitive,national cable operator,1623,3184162,0,0,0
 no-equity,block,competitive,regional cooperative,1795,7328003,0,0,0
 no-equity,block,county PPP,fixed wireless entrant,1005,1425812,3,14400,122835
 no-equity,block,county PPP,national cable operator,3760,7073295,4,19200,163780
+lateral-plus-1mi,block,county PPP,fixed wireless entrant,1299,2141230,2,9600,81890
+lateral-plus-1mi,block,county PPP,national cable operator,3037,6686400,2,9600,81890
+lateral-plus-1mi,block,county PPP,regional cooperative,217,378900,0,0,0
+lateral-plus-2mi,block,county PPP,fixed wireless entrant,1318,2511547,2,9600,81890
+lateral-plus-2mi,block,county PPP,national cable operator,2108,4201218,2,9600,81890
+lateral-plus-2mi,block,county PPP,regional cooperative,993,2486933,2,9600,81890
+lateral-plus-3mi,block,county PPP,fixed wireless entrant,596,1208146,1,4800,40945
+lateral-plus-3mi,block,county PPP,national cable operator,1846,3884243,1,4800,40945
+lateral-plus-3mi,block,county PPP,regional cooperative,1681,4816667,1,4800,40945
+wireless-minus10pp,block,cooperative,regional cooperative,3892,10995062,0,0,0
+wireless-plus10pp,block,cooperative,regional cooperative,4553,10947026,0,0,0
 budget-9m,block,cooperative,regional cooperative,3991,8990687,0,0,0
 budget-13m,block,cooperative,regional cooperative,4365,12983709,0,0,0
 low-maintenance,block,cooperative,regional cooperative,4259,10995573,0,0,0
 high-maintenance,block,cooperative,regional cooperative,4114,10984109,0,0,0
 verified-50pct,verified,cooperative,regional cooperative,5311,10994761,0,0,0
+wireless-minus10pp,block,competitive,fixed wireless entrant,159,512182,0,0,0
+wireless-minus10pp,block,competitive,national cable operator,1623,3184162,0,0,0
+wireless-minus10pp,block,competitive,regional cooperative,1618,7299472,0,0,0
+wireless-plus10pp,block,competitive,fixed wireless entrant,222,589103,0,0,0
+wireless-plus10pp,block,competitive,national cable operator,1639,3328677,0,0,0
+wireless-plus10pp,block,competitive,regional cooperative,1798,7070533,0,0,0
 budget-9m,block,competitive,fixed wireless entrant,323,746438,0,0,0
 budget-9m,block,competitive,national cable operator,1580,3058554,0,0,0
 budget-9m,block,competitive,regional cooperative,1477,5169997,0,0,0
@@ -43,6 +60,11 @@ low-maintenance,block,competitive,regional cooperative,1822,7362659,0,0,0
 high-maintenance,block,competitive,fixed wireless entrant,286,806106,0,0,0
 high-maintenance,block,competitive,national cable operator,1639,3550209,0,0,0
 high-maintenance,block,competitive,regional cooperative,1541,6615866,0,0,0
+wireless-minus10pp,block,county PPP,fixed wireless entrant,839,1318326,3,14400,122835
+wireless-minus10pp,block,county PPP,national cable operator,3807,7187831,4,19200,163780
+wireless-plus10pp,block,county PPP,fixed wireless entrant,1470,2066235,4,19200,163780
+wireless-plus10pp,block,county PPP,national cable operator,3282,6144040,4,19200,163780
+wireless-plus10pp,block,county PPP,regional cooperative,167,292363,0,0,0
 budget-9m,block,county PPP,fixed wireless entrant,1715,2430362,3,14400,122835
 budget-9m,block,county PPP,national cable operator,2298,4052539,3,14400,122835
 budget-9m,block,county PPP,regional cooperative,349,536584,0,0,0

@@ -6,6 +6,7 @@ import json
 import math
 from collections import Counter, defaultdict
 from fractions import Fraction
+from functools import partial
 from pathlib import Path
 from statistics import median
 from typing import NamedTuple
@@ -23,6 +24,11 @@ STRESS = {
     "low-maintenance": {"maintenance_factor": .75},
     "high-maintenance": {"maintenance_factor": 1.5},
     "verified-50pct": {"floor": .50},
+    "wireless-minus10pp": {"wireless_shift": -10},
+    "wireless-plus10pp": {"wireless_shift": 10},
+    "lateral-plus-1mi": {"lateral_offset": 1},
+    "lateral-plus-2mi": {"lateral_offset": 2},
+    "lateral-plus-3mi": {"lateral_offset": 3},
 }
 
 
@@ -52,14 +58,14 @@ def operating_value(tech, capex):
     return round(ANNUITY * (0.018 if tech == "fiber" else 0.035) * capex)
 
 
-def offer(block, tech, operator, hub="", backhaul_scale=1, last_mile_scale=1):
+def offer(block, tech, operator, hub="", backhaul_scale=1, last_mile_scale=1, wireless_shift=0):
     grade = block.terrain - 1
     if tech == "fiber":
         hh = block.hh
         backhaul = round(42240 * block.dist * (1 + .16 * grade))
         last_mile = round(980 * hh * (1 + .10 * grade))
     else:
-        hh = block.hh * (80, 75, 70, 62, 55)[grade] // 100
+        hh = block.hh * ((80, 75, 70, 62, 55)[grade] + wireless_shift) // 100
         backhaul = round(5500 * block.dist * (1 + .10 * grade))
         last_mile = round(28000 * (1 + .08 * grade) + 480 * hh)
     backhaul, last_mile = round(backhaul * backhaul_scale), round(last_mile * last_mile_scale)
@@ -72,7 +78,8 @@ def cost_of(action):
 
 
 def solve(rows, mechanism, regime, equity=True, footprint_delta=0, hub_factor=1,
-          budget=BUDGET, maintenance_factor=1, floor=.25):
+          budget=BUDGET, maintenance_factor=1, floor=.25, wireless_shift=0, lateral_offset=0):
+    quote = partial(offer, wireless_shift=wireless_shift)
     by_town = defaultdict(list)
     for entry in rows:
         by_town[entry.town].append(entry)
@@ -102,21 +109,21 @@ def solve(rows, mechanism, regime, equity=True, footprint_delta=0, hub_factor=1,
             feasible = defaultdict(list)
             if mechanism == "coop" or b.dist <= 13 + footprint_delta:
                 for tech in ("fiber", "wireless"):
-                    feasible[tech, ""].append(offer(b, tech, "coop"))
+                    feasible[tech, ""].append(quote(b, tech, "coop"))
             if mechanism != "coop":
                 if cable_town and b.dist <= 6 + footprint_delta:
-                    feasible["fiber", ""].append(offer(b, "fiber", "cable", "", .70, .90))
+                    feasible["fiber", ""].append(quote(b, "fiber", "cable", "", .70, .90))
                 if wireless_town and b.dist <= 9 + footprint_delta:
-                    feasible["wireless", ""].append(offer(b, "wireless", "startup", "", .75, .95))
+                    feasible["wireless", ""].append(quote(b, "wireless", "startup", "", .75, .95))
             if mechanism == "ppp":
-                lateral = abs(b.dist - hub_spec[town][0]) + .5
+                lateral = abs(b.dist - hub_spec[town][0]) + .5 + lateral_offset
                 for operator, technologies, radius, discount in (
                     ("coop", ("fiber", "wireless"), 6, 1),
                     ("cable", ("fiber",), 4, .90), ("startup", ("wireless",), 5, .95),
                 ):
                     if lateral <= radius + footprint_delta:
                         for tech in technologies:
-                            feasible[tech, town].append(offer(
+                            feasible[tech, town].append(quote(
                                 b, tech, operator, town, lateral / b.dist, discount))
             for options in feasible.values():
                 action = min(options, key=cost_of)
@@ -209,7 +216,7 @@ def compare(results, directory):
     model_names = {"cooperative": "coop", "competitive": "tender", "county PPP": "ppp"}
     operators = {"regional cooperative": "coop", "national cable operator": "cable",
                  "fixed wireless entrant": "startup"}
-    assert len(summary) == len(results) - 1 == 31
+    assert len(summary) == len(results) - 1 == 40
     for author in summary:
         model = model_names[author["mechanism"]]
         case = author["scenario"]
@@ -298,7 +305,8 @@ def main(data, out, compare_dir):
     cases += [("tender", "block", True, delta, 1, "") for delta in (-2, 2)]
     cases += [("ppp", "block", True, 0, factor, "") for factor in (.75, 2)]
     cases += [(m, "verified" if case == "verified-50pct" else "block", True, 0, 1, case)
-              for m in models for case in STRESS]
+              for m in models for case, options in STRESS.items()
+              if m == "ppp" or "lateral_offset" not in options]
     results = {}
     for m, r, equity, delta, factor, stress in cases:
         key = f"{m}/{r}/equity={equity}/footprint={delta}/hub={factor}"

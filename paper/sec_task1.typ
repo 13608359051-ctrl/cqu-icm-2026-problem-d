@@ -5,14 +5,14 @@
 
 == Observations and inferred availability
 
-The national cable provider's map flags 17 of the 20 North Ridge blocks, containing 1,908 of
-the township's 2,135 households, for a map-imputed rate of 89.37\%. Only four of those blocks
-are coded as a terrestrial technology, however: one cable block (68 households), one fiber
-block (130) and two fixed-wireless blocks (179), for 377 households and a terrestrial-claim
-rate of 17.66\%. The remaining 13 blocks, containing 1,531 households, carry a satellite flag.
-The reported claim-rate gap is therefore 71.71 percentage points, and subscriptions, which
-include every technology, reach only 55.13\%. The map describes what a provider reports; it
-does not establish that a qualifying connection can be ordered at each address. #cite("1", "3")
+Residents dispute the national cable provider's map, according to the problem statement.
+The block file records an aggregate flag and a technology label without identifying the
+provider that filed a claim. In North Ridge, 17 of 20 blocks are flagged, representing
+1,908 of 2,135 households (89.37\%). One cable-coded block contains 68 households, one
+fiber-coded block 130, and two fixed-wireless blocks 179. Those four terrestrial-coded
+blocks contain 377 households (17.66\%). The 13 satellite-coded blocks account for the
+71.71 percentage-point difference. Subscriptions across all technologies reach 55.13\%.
+An address-level check is needed to identify the available offer and its provider. #cite("1", "3")
 
 The pattern is not confined to North Ridge. County-wide the map flags 42 terrestrial-coded
 blocks containing 4,987 households, 31 satellite-coded blocks containing 4,095 households
@@ -27,25 +27,23 @@ lengths $ell_r$ and signal strengths $s_r$ in dBm, the weak-signal share at cuto
 given by (1):
 
 $ w(G, tau) = (sum_(r in G : s_r <= tau) ell_r) / (sum_(r in G) ell_r). $
-This statistic never assigns wired availability and never weights households. It measures
-only how much of the road mileage in a group is consistent with a terrestrial signal at or
-below the cutoff. At $-110$ dBm, the 25.61 surveyed miles in the satellite-coded blocks
-include 2.61 miles at or below the cutoff (a weak-signal share of 10.2\%); the 3.40 surveyed
-miles in the cable-coded block include none. The map-unserved blocks in North Ridge have a
-share of 12.0\%, so the diagnostic is at best weakly informative and is never used to
-reclassify individual addresses. It cannot prove that service is absent, and it does not
-corroborate the cable claim. #cite("1")
+At a cutoff of −110 dBm, satellite-coded blocks account for 2.61 weak miles out of
+25.61 surveyed (10.2\%). The three segments in cable-coded block 420010000004 registered
+−79.3, −89.8 and −81.1 dBm. Thus 0 of its 3.40 surveyed miles met the weak-signal
+criterion. The corresponding share in map-unserved blocks was 12.0\%. These observations
+describe surveyed roads and cannot establish cable or fiber orderability at an address.
+#cite("1")
 
-#fig(signal-fig, 3)[Left: surveyed road mileage at or below each weak-signal cutoff, by provider
-technology of the containing block. Right: households reclassified under the four challenge
-outcomes; even full success leaves four served North Ridge flags.]
+#fig(signal-fig, 3)[Left: surveyed road miles above and at or below −110 dBm, grouped by
+block technology label in North Ridge. Right: reclassification scenarios for households in
+the satellite-coded blocks. Four other North Ridge blocks retain their served flags.]
 
 North Ridge is the only township explicitly identified as northern, and the files contain no
 coordinates that would let us extend the estimate to other blocks. The result is a North Ridge
 estimate, not a county-wide correction. Independent address-level ISP queries in nine U.S.
 states found that provider maps overstate availability more often than they understate it,
-which supports the direction and the verification method of our estimate, but that study's
-error rates are not transferred to this synthetic county. #cite("3")
+which supports checking individual addresses. Rates from those states cannot quantify errors
+in this synthetic county. #cite("3")
 
 == How many households could be reclassified?
 
@@ -63,8 +61,7 @@ scenarios, not probability-weighted forecasts: the files contain no address reco
 speeds, no prices and no test of actual availability, so a statistical confidence interval
 cannot be computed from the supplied data. The observational bound across all flagged North
 Ridge blocks is 0 to 1,908 households, and the plausible bound under the satellite-only
-mechanism is 0 to 1,531. The uncertainty is resolved by collecting evidence, not by assuming
-a distribution.
+mechanism is 0 to 1,531. Verified order denials, quotes and installation records would narrow the bounds.
 
 == Accept the map or file a challenge?
 
@@ -102,16 +99,15 @@ The consequences differ by party:
   correction leaves four flagged blocks and therefore releases no construction funds under the
   township-wide rule; the county should fund the audit separately or reserve its cost.
 
-The audit is cheap relative to what it can unlock. Its \$12,585 cost is 0.11\% of the \$11.0
-million budget, yet under the current township rule it has zero expected effect on awards.
-Only when the rule is amended does the satellite evidence raise North Ridge from 211 to 1,675
-modeled opportunities under the recommended partnership, a 1,464-household swing. The audit is
-therefore best justified as cheap insurance against a wrong eligibility map rather than as a
-stand-alone investment. #cite("3", "5")
+The comparison funds the \$12,585.12 audit from a separate administrative account. If it
+must come from the construction grant, reserve its cost and reoptimize the smaller budget.
+Under the current veto even a successful targeted audit releases no construction funds.
+A change to block eligibility would admit 47 already-unserved blocks without awaiting this
+audit. If the authority also admits all 13 disputed blocks after verification, the PPP
+reoptimization increases northern opportunities from 211 to 1,675 (+1,464). The other five
+townships lose 479 in aggregate, giving a countywide increase of 985. A partial finding
+requires its own eligibility map and reoptimization. #cite("1", "5")
 
-#answer[Between *0 and 1,531 households* in North Ridge could be reclassified, with scenario
-values of 0, 383, 766 and 1,531. Under the assumed eligibility rule, *no township becomes
-eligible for construction funds even after a fully successful satellite-only challenge*,
-because four North Ridge blocks remain flagged. The audit is nevertheless worth funding: it is
-cheap relative to the budget, it is a prerequisite for any rule change or future funding
-round, and it converts a disputed map into an address-level record.]
+#answer[An estimated *0 to 1,531 households* could be reclassified within the northern
+satellite-coded blocks. The audit can document which addresses qualify if funding rules
+change. Even full success leaves four served blocks and the existing township veto intact.]

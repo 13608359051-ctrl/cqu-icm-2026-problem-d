@@ -39,7 +39,7 @@ Q 11.391215 67.337627 11.391215 70.235397
 L 11.391215 127.466368 
 Q 11.391215 130.364139 14.206822 130.364139 
 z
-" clip-path="url(#p99b5bcddbf)" style="fill: #eef1f4; stroke: #26456b; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p6ab74fb984)" style="fill: #eef1f4; stroke: #26456b; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 216.930556 193.390651 
@@ -52,7 +52,7 @@ Q 214.114949 130.364139 214.114949 133.261909
 L 214.114949 190.49288 
 Q 214.114949 193.390651 216.930556 193.390651 
 z
-" clip-path="url(#p99b5bcddbf)" style="fill: #eef1f4; stroke: #26456b; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p6ab74fb984)" style="fill: #eef1f4; stroke: #26456b; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 428.101112 130.364139 
@@ -65,7 +65,7 @@ Q 425.285505 67.337627 425.285505 70.235397
 L 425.285505 127.466368 
 Q 425.285505 130.364139 428.101112 130.364139 
 z
-" clip-path="url(#p99b5bcddbf)" style="fill: #eef1f4; stroke: #26456b; stroke-width: 1.2; stroke-linejoin: miter"/>
+" clip-path="url(#p6ab74fb984)" style="fill: #eef1f4; stroke: #26456b; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- Existing fiber -->
@@ -1887,7 +1887,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p99b5bcddbf">
+  <clipPath id="p6ab74fb984">
    <rect x="5.76" y="5.76" width="577.19952" height="195.59952"/>
   </clipPath>
  </defs>

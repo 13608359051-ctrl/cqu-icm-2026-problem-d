@@ -28,7 +28,7 @@ rule change.]
 
 Broadband has become a prerequisite for work, schooling and health care, yet rural
 households are still served by the technology that happens to reach them rather than by the
-technology they need. The federal response has been large: subsidy programs distribute
+technology they need. In the problem, subsidy programs distribute
 billions of dollars through grants and subsidized loans, and eligibility is decided by the
 coverage maps that providers submit. When those maps overstate service, public money is
 withheld from the places that need it most. Providers have an incentive to report service
@@ -89,18 +89,18 @@ main contributions are:
   satellite-coded from terrestrial-coded claims, and use the 248 road-segment measurements as
   an independent diagnostic. The result is a bounded reclassification estimate rather than a
   point guess. #cite("1", "3")
-+ *An explicit separation of three failure modes.* Infeasibility under the strict rule comes
-  from zero eligibility, not from budget or equity. We prove this separately, then test a
++ *An explicit separation of three failure modes.* The township veto precludes construction, while
+  three towns fall short of the proposed access floor. We then test a
   block-level eligibility reform and a verified-coverage overlay, which lets the county see
   exactly which rule change unlocks which plan. #cite("5")
 + *A cost-based mixed-integer deployment model.* Fiber and fixed wireless are priced from
   distance, terrain, household counts and ten years of discounted maintenance; a lexicographic
-  objective maximizes qualifying coverage and then minimizes life-cycle cost. The model has
-  at most 120 binary variables and is solved to zero optimality gap. #cite("6", "8", "13")
+  objective maximizes qualifying coverage and then minimizes life-cycle cost. The direct model has
+  at most 120 binary variables in the tested scenarios and closes its optimality gap. #cite("6", "8", "13")
 + *A matched comparison of procurement mechanisms.* The cooperative award, the competitive
   tender and the county partnership are solved under identical budget, period, standard and
-  equity constraints, so differences in coverage and cost can be attributed to the mechanism
-  rather than to the accounting. #cite("10", "15", "16")
+  equity constraints, while bidder footprints, relative costs and route assumptions
+  determine which projects each mechanism can offer. #cite("10", "15", "16")
 + *A measurement framework for effective use.* Benefit is defined as new qualifying household
   opportunities, but the paper also specifies orderability, performance and adoption
   measurements that would show whether funded projects are used for work and school. #cite("7", "14")
