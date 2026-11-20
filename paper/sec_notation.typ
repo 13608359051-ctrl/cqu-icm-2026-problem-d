@@ -29,8 +29,9 @@
 
 The attached files describe 120 census blocks in six townships and 248 road segments that
 link to the blocks. Each block reports households, subscriptions, a served flag, a technology
-label, distance to backbone and terrain. Road segments report signal strength in dBm. The
-``V2'' versions of both files are byte-identical to the originals; primary keys are unique;
+label, distance to backbone and terrain. Road segments report signal strength in dBm. Table 1
+collects the notation used throughout the paper. The ``V2'' versions
+of both files are byte-identical to the originals; primary keys are unique;
 all road segments join to exactly one block; each block contains 15 to 219 households;
 subscriptions never exceed households; distances range from 0.5 to 18.0 miles; and terrain is
 ordinal from 1 to 5. There are no coordinates, adjacent-block relations, tower locations or
