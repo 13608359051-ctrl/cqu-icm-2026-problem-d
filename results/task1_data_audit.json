@@ -1,0 +1,81 @@
+{
+  "sha256": {
+    "blocks.csv": "854f430b32f20502ef651338a062b83956fa0731e93b2efa01610fa9c3766db2",
+    "blocksV2.csv": "854f430b32f20502ef651338a062b83956fa0731e93b2efa01610fa9c3766db2",
+    "road_segments.csv": "2b0726a41594ae94696ae55d66346d21e1bc4993fc16f0c47348af0a4043739a",
+    "road_segmentsV2.csv": "2b0726a41594ae94696ae55d66346d21e1bc4993fc16f0c47348af0a4043739a"
+  },
+  "original_equals_v2_bytewise": {
+    "blocks": true,
+    "road_segments": true
+  },
+  "rows": {
+    "blocks": 120,
+    "road_segments": 248
+  },
+  "primary_keys_unique_nonempty": {
+    "block_id": true,
+    "road_segment_id": true
+  },
+  "orphan_road_segments": 0,
+  "blocks_without_road_measurements": 0,
+  "road_segments_per_block": {
+    "1": 37,
+    "2": 38,
+    "3": 45
+  },
+  "households_counted_once_in_block_table": 14496,
+  "subscriptions_counted_once_in_block_table": 6591,
+  "subscriptions_in_map_unserved_blocks": 2293,
+  "observed_ranges": {
+    "total_households": [
+      15.0,
+      219.0
+    ],
+    "subscription_households": [
+      2.0,
+      178.0
+    ],
+    "median_income": [
+      22117.0,
+      92535.0
+    ],
+    "senior_share": [
+      0.1,
+      0.31
+    ],
+    "provider_served": [
+      0.0,
+      1.0
+    ],
+    "distance_to_fiber_backbone_miles": [
+      0.5,
+      18.0
+    ],
+    "terrain_difficulty": [
+      1.0,
+      5.0
+    ],
+    "signal_strength_dbm": [
+      -125.0,
+      -55.2
+    ],
+    "road_length_miles": [
+      0.05,
+      1.5
+    ]
+  },
+  "observed_categories": {
+    "provider_technology": [
+      "cable",
+      "fiber",
+      "fixed_wireless",
+      "none",
+      "satellite"
+    ],
+    "road_type": [
+      "paved",
+      "unpaved"
+    ]
+  }
+}

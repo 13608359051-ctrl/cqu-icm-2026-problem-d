@@ -1,0 +1,31 @@
+strict cooperative infeasible None None
+strict competitive infeasible None None
+strict county PPP infeasible None None
+block cooperative optimal 4213 10980237
+block competitive optimal 3521 10997218
+block county PPP optimal 4765 10990325
+verified cooperative optimal 5311 10994761
+verified competitive optimal 4834 10970840
+verified county PPP optimal 5750 10996303
+narrow-footprints competitive infeasible None None
+wide-footprints competitive optimal 4031 10982855
+low-hub-cost county PPP optimal 4883 10978290
+high-hub-cost county PPP optimal 4381 10991450
+no-equity cooperative optimal 4213 10980237
+no-equity competitive optimal 3521 10997218
+no-equity county PPP optimal 4765 10990325
+budget-9m cooperative optimal 3991 8990687
+budget-13m cooperative optimal 4365 12983709
+low-maintenance cooperative optimal 4259 10995573
+high-maintenance cooperative optimal 4114 10984109
+verified-50pct cooperative optimal 5311 10994761
+budget-9m competitive optimal 3380 8974989
+budget-13m competitive optimal 3645 12965754
+low-maintenance competitive optimal 3552 10978111
+high-maintenance competitive optimal 3466 10972181
+verified-50pct competitive infeasible None None
+budget-9m county PPP optimal 4362 8992463
+budget-13m county PPP optimal 5110 12998936
+low-maintenance county PPP optimal 4845 10982469
+high-maintenance county PPP optimal 4609 10981002
+verified-50pct county PPP optimal 5750 10996303

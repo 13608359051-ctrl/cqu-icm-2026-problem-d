@@ -1,0 +1,169 @@
+{
+  "status": "passed",
+  "county_hh_sub_unserved_sub": [
+    14496.0,
+    6591.0,
+    2293.0
+  ],
+  "hashes": {
+    "blocks.csv": "854f430b32f20502ef651338a062b83956fa0731e93b2efa01610fa9c3766db2",
+    "blocksV2.csv": "854f430b32f20502ef651338a062b83956fa0731e93b2efa01610fa9c3766db2",
+    "road_segments.csv": "2b0726a41594ae94696ae55d66346d21e1bc4993fc16f0c47348af0a4043739a",
+    "road_segmentsV2.csv": "2b0726a41594ae94696ae55d66346d21e1bc4993fc16f0c47348af0a4043739a"
+  },
+  "townships": {
+    "Central Town": {
+      "township": "Central Town",
+      "blocks": 20,
+      "households": 2788.0,
+      "subscriptions": 2165.0,
+      "subscription_rate": 0.7765423242467718,
+      "reported_served_blocks": 15.0,
+      "reported_served_block_households": 1972.0,
+      "terrestrial_coded_blocks": 13,
+      "terrestrial_coded_block_households": 1708.0,
+      "satellite_coded_block_households": 264.0,
+      "map_unserved_block_households": 816.0,
+      "strictly_eligible": 0
+    },
+    "East Corridor": {
+      "township": "East Corridor",
+      "blocks": 20,
+      "households": 2818.0,
+      "subscriptions": 1243.0,
+      "subscription_rate": 0.4410929737402413,
+      "reported_served_blocks": 12.0,
+      "reported_served_block_households": 1734.0,
+      "terrestrial_coded_blocks": 6,
+      "terrestrial_coded_block_households": 748.0,
+      "satellite_coded_block_households": 986.0,
+      "map_unserved_block_households": 1084.0,
+      "strictly_eligible": 0
+    },
+    "North Ridge": {
+      "township": "North Ridge",
+      "blocks": 20,
+      "households": 2135.0,
+      "subscriptions": 1177.0,
+      "subscription_rate": 0.551288056206089,
+      "reported_served_blocks": 17.0,
+      "reported_served_block_households": 1908.0,
+      "terrestrial_coded_blocks": 4,
+      "terrestrial_coded_block_households": 377.0,
+      "satellite_coded_block_households": 1531.0,
+      "map_unserved_block_households": 227.0,
+      "strictly_eligible": 0
+    },
+    "River Bend": {
+      "township": "River Bend",
+      "blocks": 20,
+      "households": 2847.0,
+      "subscriptions": 852.0,
+      "subscription_rate": 0.2992623814541623,
+      "reported_served_blocks": 9.0,
+      "reported_served_block_households": 1474.0,
+      "terrestrial_coded_blocks": 3,
+      "terrestrial_coded_block_households": 508.0,
+      "satellite_coded_block_households": 966.0,
+      "map_unserved_block_households": 1373.0,
+      "strictly_eligible": 0
+    },
+    "South Hollow": {
+      "township": "South Hollow",
+      "blocks": 20,
+      "households": 1812.0,
+      "subscriptions": 398.0,
+      "subscription_rate": 0.2196467991169978,
+      "reported_served_blocks": 13.0,
+      "reported_served_block_households": 1397.0,
+      "terrestrial_coded_blocks": 12,
+      "terrestrial_coded_block_households": 1242.0,
+      "satellite_coded_block_households": 155.0,
+      "map_unserved_block_households": 415.0,
+      "strictly_eligible": 0
+    },
+    "West Plains": {
+      "township": "West Plains",
+      "blocks": 20,
+      "households": 2096.0,
+      "subscriptions": 756.0,
+      "subscription_rate": 0.3606870229007634,
+      "reported_served_blocks": 7.0,
+      "reported_served_block_households": 597.0,
+      "terrestrial_coded_blocks": 4,
+      "terrestrial_coded_block_households": 404.0,
+      "satellite_coded_block_households": 193.0,
+      "map_unserved_block_households": 1499.0,
+      "strictly_eligible": 0
+    }
+  },
+  "north_road_diagnostics": {
+    "cable": {
+      "provider_technology": "cable",
+      "blocks": 1,
+      "households": 68.0,
+      "subscriptions": 37.0,
+      "subscription_rate": 0.5441176470588235,
+      "surveyed_segments": 3,
+      "surveyed_road_miles": 3.4,
+      "miles_at_or_below_-105_dbm": 0.0,
+      "miles_at_or_below_-110_dbm": 0.0,
+      "miles_at_or_below_-115_dbm": 0.0
+    },
+    "fiber": {
+      "provider_technology": "fiber",
+      "blocks": 1,
+      "households": 130.0,
+      "subscriptions": 70.0,
+      "subscription_rate": 0.5384615384615384,
+      "surveyed_segments": 3,
+      "surveyed_road_miles": 1.6800000000000002,
+      "miles_at_or_below_-105_dbm": 0.0,
+      "miles_at_or_below_-110_dbm": 0.0,
+      "miles_at_or_below_-115_dbm": 0.0
+    },
+    "fixed_wireless": {
+      "provider_technology": "fixed_wireless",
+      "blocks": 2,
+      "households": 179.0,
+      "subscriptions": 105.0,
+      "subscription_rate": 0.5865921787709497,
+      "surveyed_segments": 4,
+      "surveyed_road_miles": 4.0,
+      "miles_at_or_below_-105_dbm": 0.0,
+      "miles_at_or_below_-110_dbm": 0.0,
+      "miles_at_or_below_-115_dbm": 0.0
+    },
+    "none": {
+      "provider_technology": "none",
+      "blocks": 3,
+      "households": 227.0,
+      "subscriptions": 111.0,
+      "subscription_rate": 0.4889867841409692,
+      "surveyed_segments": 5,
+      "surveyed_road_miles": 4.32,
+      "miles_at_or_below_-105_dbm": 1.6300000000000001,
+      "miles_at_or_below_-110_dbm": 0.52,
+      "miles_at_or_below_-115_dbm": 0.52
+    },
+    "satellite": {
+      "provider_technology": "satellite",
+      "blocks": 13,
+      "households": 1531.0,
+      "subscriptions": 854.0,
+      "subscription_rate": 0.557805355976486,
+      "surveyed_segments": 32,
+      "surveyed_road_miles": 25.61,
+      "miles_at_or_below_-105_dbm": 5.859999999999999,
+      "miles_at_or_below_-110_dbm": 2.61,
+      "miles_at_or_below_-115_dbm": 0.05
+    }
+  },
+  "challenge_usd": "12585.12",
+  "reclassified_hh": [
+    0,
+    383,
+    766,
+    1531
+  ]
+}

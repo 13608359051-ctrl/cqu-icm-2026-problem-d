@@ -1,0 +1,58 @@
+scenario,rule,mechanism,provider,new_hh,network_cost,leases,annual_lease_payment,lease_paid_pv
+block,block,cooperative,regional cooperative,4213,10980237,0,0,0
+block,block,competitive,fixed wireless entrant,103,485053,0,0,0
+block,block,competitive,national cable operator,1623,3184162,0,0,0
+block,block,competitive,regional cooperative,1795,7328003,0,0,0
+block,block,county PPP,fixed wireless entrant,1005,1425812,3,14400,122835
+block,block,county PPP,national cable operator,3760,7073295,4,19200,163780
+verified,verified,cooperative,regional cooperative,5311,10994761,0,0,0
+verified,verified,competitive,fixed wireless entrant,429,1011074,0,0,0
+verified,verified,competitive,national cable operator,3104,6014387,0,0,0
+verified,verified,competitive,regional cooperative,1301,3945379,0,0,0
+verified,verified,county PPP,fixed wireless entrant,2054,2878362,3,14400,122835
+verified,verified,county PPP,national cable operator,3347,5398671,4,19200,163780
+verified,verified,county PPP,regional cooperative,349,536584,0,0,0
+wide-footprints,block,competitive,fixed wireless entrant,248,679353,0,0,0
+wide-footprints,block,competitive,national cable operator,2129,5075775,0,0,0
+wide-footprints,block,competitive,regional cooperative,1654,5227727,0,0,0
+low-hub-cost,block,county PPP,fixed wireless entrant,705,1063164,3,14400,122835
+low-hub-cost,block,county PPP,national cable operator,4178,8046711,4,19200,163780
+high-hub-cost,block,county PPP,fixed wireless entrant,1671,2467637,2,9600,81890
+high-hub-cost,block,county PPP,national cable operator,2361,4401047,2,9600,81890
+high-hub-cost,block,county PPP,regional cooperative,349,536584,0,0,0
+no-equity,block,cooperative,regional cooperative,4213,10980237,0,0,0
+no-equity,block,competitive,fixed wireless entrant,103,485053,0,0,0
+no-equity,block,competitive,national cable operator,1623,3184162,0,0,0
+no-equity,block,competitive,regional cooperative,1795,7328003,0,0,0
+no-equity,block,county PPP,fixed wireless entrant,1005,1425812,3,14400,122835
+no-equity,block,county PPP,national cable operator,3760,7073295,4,19200,163780
+budget-9m,block,cooperative,regional cooperative,3991,8990687,0,0,0
+budget-13m,block,cooperative,regional cooperative,4365,12983709,0,0,0
+low-maintenance,block,cooperative,regional cooperative,4259,10995573,0,0,0
+high-maintenance,block,cooperative,regional cooperative,4114,10984109,0,0,0
+verified-50pct,verified,cooperative,regional cooperative,5311,10994761,0,0,0
+budget-9m,block,competitive,fixed wireless entrant,323,746438,0,0,0
+budget-9m,block,competitive,national cable operator,1580,3058554,0,0,0
+budget-9m,block,competitive,regional cooperative,1477,5169997,0,0,0
+budget-13m,block,competitive,fixed wireless entrant,103,485053,0,0,0
+budget-13m,block,competitive,national cable operator,1623,3184162,0,0,0
+budget-13m,block,competitive,regional cooperative,1919,9296539,0,0,0
+low-maintenance,block,competitive,fixed wireless entrant,91,397543,0,0,0
+low-maintenance,block,competitive,national cable operator,1639,3217909,0,0,0
+low-maintenance,block,competitive,regional cooperative,1822,7362659,0,0,0
+high-maintenance,block,competitive,fixed wireless entrant,286,806106,0,0,0
+high-maintenance,block,competitive,national cable operator,1639,3550209,0,0,0
+high-maintenance,block,competitive,regional cooperative,1541,6615866,0,0,0
+budget-9m,block,county PPP,fixed wireless entrant,1715,2430362,3,14400,122835
+budget-9m,block,county PPP,national cable operator,2298,4052539,3,14400,122835
+budget-9m,block,county PPP,regional cooperative,349,536584,0,0,0
+budget-13m,block,county PPP,fixed wireless entrant,288,683347,3,14400,122835
+budget-13m,block,county PPP,national cable operator,4822,9824371,4,19200,163780
+low-maintenance,block,county PPP,fixed wireless entrant,818,1122496,3,14400,122835
+low-maintenance,block,county PPP,national cable operator,4027,7451653,4,19200,163780
+high-maintenance,block,county PPP,fixed wireless entrant,1208,2120258,2,9600,81890
+high-maintenance,block,county PPP,national cable operator,3184,6334001,3,14400,122835
+high-maintenance,block,county PPP,regional cooperative,217,422457,0,0,0
+verified-50pct,verified,county PPP,fixed wireless entrant,2054,2878362,3,14400,122835
+verified-50pct,verified,county PPP,national cable operator,3347,5398671,4,19200,163780
+verified-50pct,verified,county PPP,regional cooperative,349,536584,0,0,0

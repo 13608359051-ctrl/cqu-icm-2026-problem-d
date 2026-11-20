@@ -1,0 +1,7 @@
+township,blocks,households,subscriptions,subscription_rate,reported_served_blocks,reported_served_block_households,terrestrial_coded_blocks,terrestrial_coded_block_households,satellite_coded_block_households,map_unserved_block_households,strictly_eligible
+Central Town,20,2788,2165,0.77654232,15,1972,13,1708,264,816,0
+East Corridor,20,2818,1243,0.44109297,12,1734,6,748,986,1084,0
+North Ridge,20,2135,1177,0.55128806,17,1908,4,377,1531,227,0
+River Bend,20,2847,852,0.29926238,9,1474,3,508,966,1373,0
+South Hollow,20,1812,398,0.2196468,13,1397,12,1242,155,415,0
+West Plains,20,2096,756,0.36068702,7,597,4,404,193,1499,0
