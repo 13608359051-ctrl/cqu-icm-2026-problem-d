@@ -1,21 +1,64 @@
-#let ink = rgb("#19272c")
-#let navy = rgb("#163a4c")
-#let accent = rgb("#176b68")
-#let rule = rgb("#9cb4b6")
-#let pale = rgb("#edf5f4")
-#let cite(..numbers) = text(fill: accent)[\[#numbers.pos().join(", ")\]]
-#let lead(body) = block(stroke: (left: 3pt + accent), inset: (left: 12pt, right: 9pt, top: 7pt, bottom: 7pt), fill: pale, width: 100%, body)
-#let caption(body) = block(above: 8pt, below: 13pt)[#text(fill: navy, body)]
-#let tab(columns, names, rows, left-columns: (0,)) = block(width: 100%)[
-  #set par(justify: false, leading: .44em)
-  #table(
-    columns: columns,
-    align: (x, _) => if x in left-columns { left + horizon } else { right + horizon },
-    stroke: (x, y) => (bottom: .4pt + rule),
-    inset: (x: 6pt, y: 4.2pt),
-    fill: (_, y) => if y == 0 { pale },
-    table.header(..names.map(n => strong(n))),
-    ..rows.flatten().map(x => if type(x) == str { text(x) } else { x }),
-  )
+// Shared typography for the solution document.
+// The paper follows the layout of the award-winning ICM-D papers: Times New
+// Roman body text, numbered sections, booktabs-style tables, captions above
+// tables and below figures, and a running header with the control number.
+
+#let ink = rgb("#000000")
+#let grey = rgb("#444444")
+#let accent = rgb("#26456b")
+#let light = rgb("#f2f2f2")
+#let cite(..numbers) = [\[#numbers.pos().join(", ")\]]
+
+// Booktabs-style table: no vertical rules, heavy top/bottom rules, a light
+// rule under the header, centred numeric columns.
+#let tab(columns, names, rows, left-columns: (0,), size: 11pt) = {
+  block(width: 100%)[
+    #set text(size: size)
+    #set par(justify: false, leading: .5em)
+    #table(
+      columns: columns,
+      stroke: none,
+      align: (x, _) => if x in left-columns { left + horizon } else { center + horizon },
+      inset: (x: 4.5pt, y: 3.2pt),
+      table.hline(stroke: .9pt),
+      table.header(..names.map(n => strong(n))),
+      table.hline(stroke: .5pt),
+      ..rows.flatten().map(x => if type(x) == content { x } else { text(str(x)) }),
+      table.hline(stroke: .9pt),
+    )
+  ]
+}
+
+// Captions are numbered manually so that every figure and table can be
+// checked against the final PDF. Figure captions sit below the figure and
+// table captions above the table, as in the reference papers.
+#let figcap(n, body) = block(above: 7pt, below: 15pt, {
+  set text(size: 11pt)
+  set par(justify: false)
+  align(center)[*Figure #n.* #body]
+})
+
+#let tabcap(n, body) = block(above: 14pt, below: 4pt, {
+  set text(size: 11pt)
+  set par(justify: false)
+  align(center)[*Table #n.* #body]
+})
+
+// Keep a figure and its caption on the same page.
+#let fig(path, n, body, width: 100%) = block(breakable: false, width: width)[
+  #image(path, width: 100%)
+  #figcap(n, body)
 ]
 
+// Keep a table and its caption on the same page.
+#let tabblock(n, caption, columns, names, table-rows, left-columns: (0,), size: 11pt) = block(breakable: false, width: 100%)[
+  #tabcap(n, caption)
+  #tab(columns, names, table-rows, left-columns: left-columns, size: size)
+]
+
+// A short emphasised answer/result paragraph used to make the response to a
+// task requirement visible at a glance.
+#let answer(body) = block(above: .75em, below: .75em)[
+  #set par(first-line-indent: 0pt)
+  #text(weight: "bold")[Answer.] #body
+]

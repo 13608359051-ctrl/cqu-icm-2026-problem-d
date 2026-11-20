@@ -77,5 +77,19 @@
       "paved",
       "unpaved"
     ]
+  },
+  "county_claim_decomposition": {
+    "satellite": {
+      "blocks": 31,
+      "households": 4095
+    },
+    "terrestrial": {
+      "blocks": 42,
+      "households": 4987
+    },
+    "unserved": {
+      "blocks": 47,
+      "households": 5414
+    }
   }
 }

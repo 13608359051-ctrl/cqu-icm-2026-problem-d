@@ -162,7 +162,32 @@ def run(data, out):
     assert sum(row["surveyed_segments"] for row in diagnostics) == sum(
         road_counts[row["block_id"]] for row in north)
     assert scenarios[-1]["households_reclassified"] == satellite_count
+
+    county_groups = {
+        "satellite": [row for row in blocks if row["provider_served"] == "1"
+                      and row["provider_technology"] == "satellite"],
+        "terrestrial": [row for row in blocks if row["provider_served"] == "1"
+                        and row["provider_technology"] != "satellite"],
+        "unserved": [row for row in blocks if row["provider_served"] == "0"],
+    }
+    audit["county_claim_decomposition"] = {
+        name: {"blocks": len(group), "households": households(group)}
+        for name, group in county_groups.items()
+    }
+
     out.mkdir(parents=True, exist_ok=True)
+    write(out / "task1_blocks.csv", [{
+        "block_id": row["block_id"],
+        "township": row["township"],
+        "households": int(row["total_households"]),
+        "subscriptions": int(row["subscription_households"]),
+        "provider_served": int(row["provider_served"]),
+        "provider_technology": row["provider_technology"],
+        "median_income": int(row["median_income"]),
+        "senior_share": float(row["senior_share"]),
+        "distance_miles": float(row["distance_to_fiber_backbone_miles"]),
+        "terrain": int(row["terrain_difficulty"]),
+    } for row in blocks])
     write(out / "task1_townships.csv", townships)
     write(out / "task1_north_diagnostics.csv", diagnostics)
     write(out / "task1_challenge.csv", scenarios)

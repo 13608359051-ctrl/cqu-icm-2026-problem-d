@@ -30,7 +30,28 @@
     "verified_best_hh": "1,675",
     "min_funding": "$793,458",
     "min_funding_new": "526",
-    "verified_50_min_funding": "$4,969,620"
+    "verified_50_min_funding": "$4,969,620",
+    "wireless_span": "661",
+    "fiber_span": "295",
+    "county_sat_blocks": "31",
+    "county_sat_hh": "4,095",
+    "county_terr_blocks": "42",
+    "county_unserved_hh": "5,414",
+    "county_sat_share": "28.25%",
+    "pool_share": "77.82%",
+    "verified_pool_share": "82.79%",
+    "marginal_8_11": "$7,961",
+    "marginal_11_14": "$13,582",
+    "average_cost": "$2,606",
+    "audit_cost": "$12,585",
+    "audit_share": "0.11%",
+    "audit_unlock": "1,464",
+    "floor_slack": "2.54 pp",
+    "min_gap": "62.99 pp",
+    "south_claim": "68.54%",
+    "south_sub": "21.96%",
+    "south_gain": "174",
+    "county_sub_rate": "45.47%"
   },
   "rows": {
     "townships": [
@@ -40,7 +61,9 @@
         "1,177",
         "55.13%",
         "17",
-        "377"
+        "4",
+        "1,531",
+        "227"
       ],
       [
         "East Corridor",
@@ -48,7 +71,9 @@
         "1,243",
         "44.11%",
         "12",
-        "748"
+        "6",
+        "986",
+        "1,084"
       ],
       [
         "South Hollow",
@@ -56,7 +81,9 @@
         "398",
         "21.96%",
         "13",
-        "1,242"
+        "12",
+        "155",
+        "415"
       ],
       [
         "West Plains",
@@ -64,7 +91,9 @@
         "756",
         "36.07%",
         "7",
-        "404"
+        "4",
+        "193",
+        "1,499"
       ],
       [
         "Central Town",
@@ -72,7 +101,9 @@
         "2,165",
         "77.65%",
         "15",
-        "1,708"
+        "13",
+        "264",
+        "816"
       ],
       [
         "River Bend",
@@ -80,7 +111,19 @@
         "852",
         "29.93%",
         "9",
-        "508"
+        "3",
+        "966",
+        "1,373"
+      ],
+      [
+        "County total",
+        "14,496",
+        "6,591",
+        "45.47%",
+        73,
+        42,
+        "4,095",
+        "5,414"
       ]
     ],
     "challenge": [
@@ -95,9 +138,14 @@
         "0 households reclassified. No town eligible."
       ],
       [
-        "Partial success",
+        "25% verified",
         "$12,585 / 120 d conceded / 270 d contested",
-        "383 or 766 households. No town eligible."
+        "383 households. No town eligible."
+      ],
+      [
+        "50% verified",
+        "$12,585 / 120 d conceded / 270 d contested",
+        "766 households. No town eligible."
       ],
       [
         "Full targeted success",
@@ -105,22 +153,145 @@
         "1,531 households. Four North Ridge flags still block funding."
       ]
     ],
-    "sensitivity": [
+    "feasibility": [
       [
-        "Fiber, aerial Q1",
-        "4,342",
-        "$10.979m",
-        "16 / 27",
-        "28.10%",
-        "+4 / −5"
+        "Strict township rule",
+        "25%",
+        "Infeasible",
+        "-",
+        "-",
+        "-",
+        "-"
       ],
+      [
+        "Strict, floor removed",
+        "0%",
+        "Optimal",
+        "0",
+        "$0.000m",
+        "0 / 0",
+        "17.66%"
+      ],
+      [
+        "Block eligibility",
+        "25%",
+        "Optimal",
+        "4,213",
+        "$10.980m",
+        "12 / 32",
+        "28.10%"
+      ],
+      [
+        "Block eligibility, min. outlay",
+        "25%",
+        "Optimal",
+        "526",
+        "$0.793m",
+        "0 / 5",
+        "25.29%"
+      ],
+      [
+        "Block eligibility",
+        "50%",
+        "Infeasible",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "Verified overlay",
+        "25%",
+        "Optimal",
+        "5,311",
+        "$10.995m",
+        "11 / 43",
+        "52.13%"
+      ],
+      [
+        "Verified overlay, min. outlay",
+        "50%",
+        "Optimal",
+        "2,930",
+        "$4.970m",
+        "0 / 26",
+        "50.00%"
+      ]
+    ],
+    "deployment": [
+      [
+        "North Ridge",
+        "2 / 0",
+        "211",
+        "0",
+        "$0.376m",
+        "$1,782"
+      ],
+      [
+        "East Corridor",
+        "6 / 2",
+        "749",
+        "250",
+        "$2.278m",
+        "$2,281"
+      ],
+      [
+        "South Hollow",
+        "0 / 3",
+        "0",
+        "174",
+        "$0.346m",
+        "$1,991"
+      ],
+      [
+        "West Plains",
+        "9 / 2",
+        "1,211",
+        "156",
+        "$3.938m",
+        "$2,881"
+      ],
+      [
+        "Central Town",
+        "5 / 0",
+        "816",
+        "0",
+        "$1.220m",
+        "$1,495"
+      ],
+      [
+        "River Bend",
+        "6 / 5",
+        "773",
+        "425",
+        "$2.832m",
+        "$2,364"
+      ],
+      [
+        "Total",
+        "28 / 12",
+        "3,760",
+        "1,005",
+        "$10.990m",
+        "$2,306"
+      ]
+    ],
+    "sensitivity": [
       [
         "Base",
         "4,213",
         "$10.980m",
         "12 / 32",
         "28.10%",
-        "+0 / −0"
+        "0"
+      ],
+      [
+        "Fiber, aerial Q1",
+        "4,342",
+        "$10.979m",
+        "16 / 27",
+        "28.10%",
+        "+129"
       ],
       [
         "Fiber, underground median",
@@ -128,23 +299,55 @@
         "$10.932m",
         "7 / 38",
         "26.89%",
-        "+6 / −5"
+        "-166"
       ],
       [
-        "Wireless pass −10 pp",
+        "Wireless serviceability -10 pp",
         "3,892",
         "$10.995m",
         "13 / 29",
         "27.54%",
-        "+1 / −3"
+        "-321"
       ],
       [
-        "Wireless pass +10 pp",
+        "Wireless serviceability +10 pp",
         "4,553",
         "$10.947m",
         "10 / 36",
         "28.15%",
-        "+4 / −2"
+        "+340"
+      ],
+      [
+        "Budget $8m",
+        "3,836",
+        "$7.979m",
+        "3 / 38",
+        "26.32%",
+        "-377"
+      ],
+      [
+        "Budget $14m",
+        "4,434",
+        "$13.982m",
+        "17 / 28",
+        "28.10%",
+        "+221"
+      ],
+      [
+        "O&M 75% of base",
+        "4,259",
+        "$10.996m",
+        "13 / 32",
+        "28.10%",
+        "+46"
+      ],
+      [
+        "O&M 125% of base",
+        "4,164",
+        "$10.931m",
+        "10 / 34",
+        "28.10%",
+        "-49"
       ]
     ],
     "mechanisms": [
@@ -171,29 +374,6 @@
         "$2,306",
         "27.54%",
         "28 / 12"
-      ]
-    ],
-    "lifecycle": [
-      [
-        "Cooperative",
-        "$4.789m",
-        "$4.144m",
-        "$2.047m",
-        "$10.980m"
-      ],
-      [
-        "Competitive tender",
-        "$5.574m",
-        "$3.683m",
-        "$1.740m",
-        "$10.997m"
-      ],
-      [
-        "County PPP",
-        "$4.696m",
-        "$4.694m",
-        "$1.601m",
-        "$10.704m"
       ]
     ],
     "verified": [
@@ -223,38 +403,44 @@
       [
         "North Ridge",
         "211",
-        "9.88%",
-        "27.54%"
+        "92.95%",
+        "27.54%",
+        "55.13%"
       ],
       [
         "East Corridor",
         "999",
-        "35.45%",
-        "61.99%"
+        "92.16%",
+        "61.99%",
+        "44.11%"
       ],
       [
         "South Hollow",
         "174",
-        "9.60%",
-        "78.15%"
+        "41.93%",
+        "78.15%",
+        "21.96%"
       ],
       [
         "West Plains",
         "1,367",
-        "65.22%",
-        "84.49%"
+        "91.19%",
+        "84.49%",
+        "36.07%"
       ],
       [
         "Central Town",
         "816",
-        "29.27%",
-        "90.53%"
+        "100.00%",
+        "90.53%",
+        "77.65%"
       ],
       [
         "River Bend",
         "1,198",
-        "42.08%",
-        "59.92%"
+        "87.25%",
+        "59.92%",
+        "29.93%"
       ]
     ]
   }
